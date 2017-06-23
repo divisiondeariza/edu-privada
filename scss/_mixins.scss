@@ -10,6 +10,12 @@
     transition: $values;
 }
 
+@mixin shadow-properties($value) {
+      -webkit-box-shadow: $value;
+    -moz-box-shadow: $value;
+    box-shadow: $value;
+}
+
 @mixin border-radius-properties($value) {
     -webkit-border-radius: $value;
     -moz-border-radius: $value;

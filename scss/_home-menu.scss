@@ -4,6 +4,8 @@
  */
  .#{$site-name} {
    .home-menu {
+        position: absolute;
+
         .view-content {
             display: flex;
             align-items: baseline;
@@ -11,6 +13,7 @@
             .views-row {
                 width: 30%;
                 display: inline-block;
+                @include shadow-properties(4px 4px 10px 2px rgba(0, 0, 0, 0.25));
 
                 &:first-child {
                     margin: 0 2% 0 6%;
@@ -31,6 +34,17 @@
                     font-size: 20px;
                     line-height: 120%;
                 }
+            }
+        }
+
+        @media (min-width: 992px) {
+            & {
+                top: 50%;
+            }
+        }
+        @media (max-width: 991px) {
+            & {
+                top: 35vw;
             }
         }
     }

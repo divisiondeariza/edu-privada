@@ -1168,26 +1168,37 @@ h1.logo {
  * Home Menu Styles
  * --------------------------------------------------
  */
-.site-eduprivada .home-menu .view-content {
-  display: flex;
-  align-items: baseline; }
-  .site-eduprivada .home-menu .view-content .views-row {
-    width: 30%;
-    display: inline-block; }
-    .site-eduprivada .home-menu .view-content .views-row:first-child {
-      margin: 0 2% 0 6%; }
-    .site-eduprivada .home-menu .view-content .views-row:nth-child(2) {
-      margin: 0 2%; }
-    .site-eduprivada .home-menu .view-content .views-row:last-child {
-      margin: 0 6% 0 2%; }
-    .site-eduprivada .home-menu .view-content .views-row a {
-      background: white;
-      display: block;
-      padding: 15px 15px 40px;
-      border-radius: 7px;
-      color: #1f0d2e;
-      font-weight: 600;
-      font-size: 20px;
-      line-height: 120%; }
+.site-eduprivada .home-menu {
+  position: absolute; }
+  .site-eduprivada .home-menu .view-content {
+    display: flex;
+    align-items: baseline; }
+    .site-eduprivada .home-menu .view-content .views-row {
+      width: 30%;
+      display: inline-block;
+      -webkit-box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.25);
+      -moz-box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.25);
+      box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.25); }
+      .site-eduprivada .home-menu .view-content .views-row:first-child {
+        margin: 0 2% 0 6%; }
+      .site-eduprivada .home-menu .view-content .views-row:nth-child(2) {
+        margin: 0 2%; }
+      .site-eduprivada .home-menu .view-content .views-row:last-child {
+        margin: 0 6% 0 2%; }
+      .site-eduprivada .home-menu .view-content .views-row a {
+        background: white;
+        display: block;
+        padding: 15px 15px 40px;
+        border-radius: 7px;
+        color: #1f0d2e;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 120%; }
+  @media (min-width: 992px) {
+    .site-eduprivada .home-menu {
+      top: 50%; } }
+  @media (max-width: 991px) {
+    .site-eduprivada .home-menu {
+      top: 35vw; } }
 
 /*# sourceMappingURL=site-styles.css.map */
