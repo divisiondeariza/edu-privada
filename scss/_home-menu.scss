@@ -1,0 +1,37 @@
+/**
+ * Home Menu Styles
+ * --------------------------------------------------
+ */
+ .#{$site-name} {
+   .home-menu {
+        .view-content {
+            display: flex;
+            align-items: baseline;
+
+            .views-row {
+                width: 30%;
+                display: inline-block;
+
+                &:first-child {
+                    margin: 0 2% 0 6%;
+                }
+                &:nth-child(2) {
+                    margin: 0 2%;
+                }
+                &:last-child {
+                    margin: 0 6% 0 2%;
+                }
+                a {
+                    background: white;
+                    display: block;
+                    padding: 15px 15px 40px;
+                    border-radius: 7px;
+                    color: #1f0d2e;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 120%;
+                }
+            }
+        }
+    }
+}

@@ -548,16 +548,16 @@ h1.logo {
  * --------------------------------------------------
  */
 .site-eduprivada .main_container {
-  background: #9ccde8;
-  background: -moz-linear-gradient(left, #9ccde8 0%, #5d90aa 50%, #9ccde8 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, #9ccde8), color-stop(50%, #5d90aa), color-stop(100%, #9ccde8));
-  background: -webkit-linear-gradient(left, #9ccde8 0%, #5d90aa 50%, #9ccde8 100%);
-  background: -o-linear-gradient(left, #9ccde8 0%, #5d90aa 50%, #9ccde8 100%);
-  background: -ms-linear-gradient(left, #9ccde8 0%, #5d90aa 50%, #9ccde8 100%);
-  background: linear-gradient(to right, #9ccde8 0%, #5d90aa 50%, #9ccde8 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9CCDE8', endColorstr='#9CCDE8', GradientType=1 ); }
+  background: #d5e3e6;
+  background: -moz-linear-gradient(left, #d5e3e6 0%, #5d90aa 50%, #d5e3e6 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #d5e3e6), color-stop(50%, #5d90aa), color-stop(100%, #d5e3e6));
+  background: -webkit-linear-gradient(left, #d5e3e6 0%, #5d90aa 50%, #d5e3e6 100%);
+  background: -o-linear-gradient(left, #d5e3e6 0%, #5d90aa 50%, #d5e3e6 100%);
+  background: -ms-linear-gradient(left, #d5e3e6 0%, #5d90aa 50%, #d5e3e6 100%);
+  background: linear-gradient(to right, #d5e3e6 0%, #5d90aa 50%, #d5e3e6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5e3e6', endColorstr='#d5e3e6', GradientType=1 ); }
 .site-eduprivada #microsite_panel {
-  background-color: white;
+  background-color: #b7d0d3;
   min-height: 820px; }
 .site-eduprivada .content p a {
   text-decoration: underline;
@@ -1163,5 +1163,31 @@ h1.logo {
   font-weight: bold; }
 .site-eduprivada .pager-item + .pager-current:before {
   padding-right: 7px; }
+
+/**
+ * Home Menu Styles
+ * --------------------------------------------------
+ */
+.site-eduprivada .home-menu .view-content {
+  display: flex;
+  align-items: baseline; }
+  .site-eduprivada .home-menu .view-content .views-row {
+    width: 30%;
+    display: inline-block; }
+    .site-eduprivada .home-menu .view-content .views-row:first-child {
+      margin: 0 2% 0 6%; }
+    .site-eduprivada .home-menu .view-content .views-row:nth-child(2) {
+      margin: 0 2%; }
+    .site-eduprivada .home-menu .view-content .views-row:last-child {
+      margin: 0 6% 0 2%; }
+    .site-eduprivada .home-menu .view-content .views-row a {
+      background: white;
+      display: block;
+      padding: 15px 15px 40px;
+      border-radius: 7px;
+      color: #1f0d2e;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 120%; }
 
 /*# sourceMappingURL=site-styles.css.map */

@@ -10,9 +10,9 @@ $images-path:                      "http://52.37.84.217/#{$path-site}/img/";
 
  // Colors
  // -------------------------------
-$site-bg:                         #9CCDE8 !default;
+$site-bg:                         #d5e3e6 !default;
 $site-bg-shadow:                  #5d90aa !default;
-$content-bg:                      white !default;
+$content-bg:                      #b7d0d3 !default;
 $headers-default-text-color:      #1F2B49 !default;
 $h2-text-color:                   #162a55 !default;
 $main-menu-bg:                    #2a569b !default;
@@ -43,6 +43,7 @@ $link-text-hover:                 #94642d !default;
 $close-line-color:                #858585 !default;
 $tabs-text-color:                 #061236 !default;
 $current-pager-color:             #DE3A73 !default;
+$home-menu-text-color:            #1f0d2e !default;
 //Measures
 // -------------------------------
 $main-header-height:              132px;
