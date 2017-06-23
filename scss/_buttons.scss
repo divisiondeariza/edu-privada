@@ -1,0 +1,52 @@
+/**
+ * Buttons Styles
+ * --------------------------------------------------
+ */
+ .#{$site-name} {
+     .btn {
+         background: $accordion-selected-bg;
+         color: white;
+         font-weight: 600;
+         border: none;
+
+         &:hover {
+            background: $accordion-odd-bg !important;
+            border: none;
+         }
+     }
+     .icon-button {
+        background: $link-text-color;
+        padding: 10px 16px 10px 50px;
+        position: relative;
+
+        span {
+            background: url("#{$images-path}img-spritesheet.png") no-repeat;
+            height: 45px;
+            width: 45px;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+     }
+
+     .pdf-button {
+         span {
+            background-position: -133px -6px;
+         }
+     }
+     .excel-button {
+         span {
+            background-position: -133px -62px;
+         }
+     }
+     .more-info-button {
+         span {
+            background-position: -189px -6px;
+         }
+     }
+     .table {
+          button {
+              white-space: normal;
+          }
+      }
+}

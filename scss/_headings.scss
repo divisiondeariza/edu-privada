@@ -1,0 +1,47 @@
+/**
+ * Headings Styles
+ * --------------------------------------------------
+ */
+.content-header-styles {
+    font-weight: normal;
+    color: $headers-default-text-color;
+    margin-bottom: 0px !important;
+}
+ .#{$site-name} {
+    .content {
+        h1 {
+            color: $h2-text-color;
+            margin-top: 30px;
+            font-size: 30px;
+            @extend .content-header-styles;
+        }
+        h2 {
+            font-size: 20px;
+            color: $h2-text-color;
+            margin-top: 25px;
+            font-weight: 600;
+            @extend .content-header-styles;
+        }
+        h3 {
+            font-size: 16px;
+            color: $h2-text-color;
+            font-weight: 600;
+            margin-top: 20px;
+            display: inline-block;
+            padding-right: 10px;
+            @extend .content-header-styles;
+        }
+        h4 {
+            color: $h2-text-color;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 15px;
+            @extend .content-header-styles;
+        }
+    }
+    h2.title {
+        display: none;
+    }
+}

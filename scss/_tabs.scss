@@ -1,0 +1,79 @@
+/**
+ * Tabs Styles
+ * --------------------------------------------------
+ */
+ .#{$site-name} {
+    .tabs-content {
+        margin: 20px 0;
+    }
+     ul.nav.nav-tabs {
+         display: flex;
+         
+         a {
+             color: $tabs-text-color;
+             font-weight: 600;
+         }
+         li.active {
+             a {
+                 background-color: white;
+                 color: $link-text-color;
+             }
+         }
+     }
+    .tab-content {
+        background-color: white;
+    }
+    div {
+        .tab-pane.fade {
+            padding: 10px;
+        }
+    }
+    .quicktabs-wrapper {
+        margin: 20px 0;
+
+        .quicktabs-tabs {
+            overflow: visible;
+            border: none;
+            height: auto;
+
+            li {
+                padding: 10px 15px !important;
+                border-bottom: 1px solid lightgray;
+                a, a:hover {
+                    color: $tabs-text-color;
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+                a:hover {
+                    text-decoration: underline;
+                }
+                &.active {
+                    top: 0;
+                    border: 1px solid lightgray !important;
+                    border-bottom: 3px solid white !important;
+                    padding: 9px 15px !important;
+                    position: relative !important;
+
+                    a {
+                        border: none;
+                        color: $link-text-color;
+                        text-decoration: blink;
+                    }
+                }
+            }
+        }
+        .quicktabs_main {
+            border-top: 1px solid lightgray;
+            top: -1px;
+            position: relative;
+            padding: 15px;
+        }
+
+        @media (max-width: 767px) {
+            .quicktabs-tabs li {
+                height: auto;
+                width: auto;
+            }
+        }
+    }
+}

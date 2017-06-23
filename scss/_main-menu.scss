@@ -1,0 +1,117 @@
+/**
+ * Main Menu Styles
+ * --------------------------------------------------
+ */
+ .#{$site-name} {
+   #microsite_panel {
+      .slide {
+          .pane-content {
+              & > .menu {
+                  background-color: $main-menu-bg !important;
+
+                  li {
+                      &.parent_menu {
+                          & > a {
+                              border-right: 1px solid $main-menu-horizontal-separator;
+                              padding: 10px 5px !important;
+                              font-size: 15px !important;
+                          }
+                          & > .children_menu {
+                          top: 95%;
+                          height: 0px;
+                          background: transparent;
+                          z-index:100;
+
+                          li {
+                              display: block;
+
+                              &:first-child {
+                                border-top: none;
+                              }
+                              &:last-child {
+                                border-bottom:none;
+                              }
+                              a {
+                                background-color: $main-menu-item-bg !important;
+                                border-bottom: 1px solid $main-menu-item-separator !important;
+                                color: white !important;
+                                line-height: 14px;
+                                font-size: 14px!important;
+                                height: auto;
+                                padding: 15px;
+
+                                &:hover {
+                                    background: $main-menu-item-hover-bg !important;
+                                    color: $main-menu-text-hover !important;
+                                    text-decoration: none;
+                                    padding: 18px 15px!important;
+                                    display: block;
+                                    font-weight: 600;
+                                    @include transition-properties(all 0.2s ease);
+                                }
+                              }
+                          }
+                      }
+                      }
+                      &:hover{
+                        color: $main-menu-text-hover;
+                        text-decoration: none !important;
+                        background-color: $main-menu-parent-hover-bg;
+                      }
+                      &.expanded {
+                          & > a {
+                              &:hover {
+                                color: $main-menu-text-hover !important;
+                                text-decoration: none !important;
+                                  background-color: $main-menu-parent-hover-bg;
+                              }
+                          }
+                      }
+                  }
+                  &:hover {
+                    color: $main-menu-text-hover !important;
+                    text-decoration: none !important;
+                      li.parent_menu {
+                          & > .children_menu {
+                            &:hover {
+                              background-color: $main-menu-parent-hover-bg;
+                              height:auto;
+                            }
+                            & > a{
+                              &:hover{
+                                color: $main-menu-text-hover !important;
+                                text-decoration: none !important;
+                              }
+                            }
+                          }
+                          &:hover {
+                            & > .children_menu {
+                              height:auto;
+                            }
+                          }
+                      }
+                  }
+              }
+
+              @media (min-width: 768px) {
+                  & > .menu li.parent_menu {
+                      width: 20%;
+                  }
+              }
+
+              @media (max-width: 767px)
+              {
+                  & > .menu li.parent_menu {
+                      width: 100%;
+
+                      & > a,
+                      & > .children_menu li a {
+                          padding: 10px 15px !important;
+                      }
+
+                  }
+              }
+          }
+      }
+   }
+}

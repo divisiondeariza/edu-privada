@@ -1,0 +1,50 @@
+/**
+ * Pager Styles
+ * --------------------------------------------------
+ */
+ .#{$site-name} {
+    .content {
+        .pager {
+            li > a {
+                padding: 0;
+                border-radius: 0;
+                border: none;
+                background-color: white;
+                font-weight: bold;
+                color: black;
+            }
+            .pager-current {
+                background-color: white;
+                color: $current-pager-color;
+                width: 40px;
+            }
+            .pager-first a, .pager-previous a, .pager-next a, .pager-last a {
+                background: url("#{$images-path}img-pager-spritesheet.png");
+            }
+            .pager-first a {
+                background-position: 3px -20px;
+            }
+            .pager-previous a {
+                background-position: 3px 3px;
+            }
+            .pager-next a {
+                background-position: -20px 3px;
+            }
+            .pager-last a {
+                background-position: -21px -20px;
+            }
+        }
+    }
+
+    .pager-previous + .pager-item:before, .pager-item + .pager-current:before,
+    .pager-current + .pager-item:before, .pager-item + .pager-item:before,
+    .pager-item + .pager-next:before {
+        content: " | ";
+        color: black;
+        font-weight: bold;
+    }
+
+    .pager-item + .pager-current:before {
+        padding-right: 7px;
+    }
+}

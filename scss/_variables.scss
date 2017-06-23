@@ -1,0 +1,48 @@
+/**
+* Variables
+* --------------------------------------------------
+*/
+
+$site-name:                        site-eduprivada;
+$site-slider:                      edu_privada_home_slider;
+$path-site:                        edu-privada;
+$images-path:                      "http://52.37.84.217/#{$path-site}/img/";
+
+ // Colors
+ // -------------------------------
+$site-bg:                         #9CCDE8 !default;
+$site-bg-shadow:                  #5d90aa !default;
+$content-bg:                      white !default;
+$headers-default-text-color:      #1F2B49 !default;
+$h2-text-color:                   #162a55 !default;
+$main-menu-bg:                    #2a569b !default;
+$main-menu-parent-hover-bg:       #0b204e !default;
+$main-menu-text-hover:            #cc8e55 !default;
+$main-menu-horizontal-separator:  rgba(255, 255, 255, 0.3) !default;
+$main-menu-item-bg:               #0b204e !default;
+$main-menu-item-hover-bg:         #000a34 !default;
+$main-menu-item-separator:        rgba(153, 153, 153, 0.4) !default;
+$lateral-menu-bg:                 #868686 !default;
+$lateral-menu-hover-bg:           #3c3c3a !default;
+$slider-btn-info-hover:           #5b5b5b !default;
+$table-head-bg:                   #0b204e !default;
+$table-odd-row-bg:                #b8dcef !default;
+$table-even-row-bg:               #9fcfea !default;
+$table-row-hover-bg:              #4470B3 !default;
+$table-link-color:                #243268 !default;
+$main-lateral-button-border:      #a0a0a0 !default;
+$main-lateral-first-btn-bg:       #b31b58 !default;
+$main-lateral-second-btn-bg:      #9CC34D !default;
+$main-lateral-third-btn-bg:       #66A7DD !default;
+$paragraph-text-color:            #666666 !default;
+$accordion-odd-bg:                #6EA7D5 !default;
+$accordion-even-bg:               #4470b3 !default;
+$accordion-selected-bg:           #1A254E !default;
+$link-text-color:                 #EBA95E !default;
+$link-text-hover:                 #94642d !default;
+$close-line-color:                #858585 !default;
+$tabs-text-color:                 #061236 !default;
+$current-pager-color:             #DE3A73 !default;
+//Measures
+// -------------------------------
+$main-header-height:              132px;

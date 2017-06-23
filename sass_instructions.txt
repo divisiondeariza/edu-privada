@@ -1,0 +1,4 @@
+estando en -> cd C:\Users\CEN_3F_CDO_PC04\Documents\edu-privada
+ejecutar -> sass --watch scss/site-styles.scss:css/site-styles.css
+
+desde casa -> cd /d D:\Documentos\developer\edu-privada

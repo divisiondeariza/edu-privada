@@ -1,0 +1,144 @@
+/**
+ * Tables Styles
+ * --------------------------------------------------
+ */
+.th-text-styles {
+    text-decoration: none;
+    color:white;
+    text-shadow: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.#{$site-name} {
+    .content {
+        .table-responsive {
+            width: 95%;
+            margin: auto;
+            margin-bottom: 15px;
+            border: none;
+
+            tbody {
+                tr {
+                    border-bottom: none;
+
+                    &:nth-child(odd) {
+                        background: $table-odd-row-bg;
+                    }
+                    &:nth-child(even){
+                        background: $table-even-row-bg;
+                    }
+                    &:hover{
+                        background: $table-row-hover-bg;
+                        @include transition-properties(all 150ms ease-out);
+
+                        * {
+                            color: white !important;
+                        }
+
+                        th, td {
+                            color: white;
+                            @include transition-properties(all 150ms ease-out);
+                        }
+                    }
+                    th,td {
+                        padding: 15px !important;
+                        vertical-align: middle !important;
+                        color: black;
+                    }
+                    td {
+                        &:last-child {
+                            min-width:100px;
+                        }
+                    }
+                }
+            }
+            td {
+                & > a {
+                    color: $table-link-color;
+                    display: inline-block;
+                }
+            }
+            table {
+                tr {
+                    th {
+                        text-shadow:none;
+                        vertical-align: middle;
+                    }
+                }
+            }
+            tr, tr.even {
+                border-bottom: 0px;
+                border-top: 0px;
+            }
+            tfoot {
+                tr {
+                    td {
+                        &:last-child {
+                            border-right: none;
+                        }
+                    }
+                }
+                td {
+                    padding:3px 3px 3px 3px;
+                }
+            }
+
+            @media screen and (max-width: 767px) {
+                .table {
+                    & > tbody > tr > td, & > tbody > tr > th,
+                    & > tfoot > tr > td, & > tfoot > tr > th,
+                    & > thead > tr > td, & > thead > tr > th {
+                        white-space: normal;
+                    }
+                }
+            }
+        }
+        table {
+            thead {
+                th {
+                    @extend .th-text-styles;
+
+                    a {
+                        @extend .th-text-styles;
+
+                        &:hover {
+                            @extend .th-text-styles;
+                        }
+                    }
+                    &:hover {
+                        @extend .th-text-styles;
+                    }
+                }
+            }
+            & > thead {
+                @include border-radius-properties(5px 5px 0px 0px);
+
+                & > tr {
+                    & > th {
+                        background: $table-head-bg;
+                        padding: 15px;
+
+                        &:first-child {
+                            border-top-left-radius: 15px;
+                            border: none;
+                        }
+                        &:last-child {
+                            border-top-right-radius: 15px;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+        .table-bordered {
+            border: none;
+
+            & > thead > tr {
+                & > td, & > th {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}

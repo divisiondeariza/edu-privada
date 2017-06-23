@@ -1,0 +1,107 @@
+/**
+ * General Styles
+ * --------------------------------------------------
+ */
+ .#{$site-name} {
+     .main_container {
+        @include main-background-properties($site-bg, $site-bg-shadow);
+     }
+     #microsite_panel {
+         background-color: $content-bg;
+         min-height: 820px;
+     }
+     .content {
+         p {
+             a {
+               text-decoration: underline;
+               cursor: pointer;
+               color: $link-text-color;
+
+               &:hover {
+                  color: $link-text-hover;
+               }
+             }
+         }
+     }
+     .section_content {
+        .breadcrumb {
+           margin-bottom: 0px;
+           height: 40px;
+        }
+        p {
+          margin-top: 10px !important;
+          color: $paragraph-text-color !important;
+        }
+     }
+     .home-content {
+        .view-content {
+            ul {
+                padding-left: 40px !important;
+            }
+            li {
+                margin-top: 5px !important;
+                list-style: initial !important;
+            }
+            .home-image {
+                background: url("#{$images-path}img_home.jpg") no-repeat center / contain;
+                min-height: 150px;
+            }
+        }
+     }
+     .registration-content {
+        .row > * {
+            text-align: center;
+            margin: 15px 0;
+        }
+     }
+     .media {
+        margin: 30px 0;
+
+        .media-left {
+            a {
+                width: 110px;
+                display: block;
+            }
+        }
+        .media-body {
+            .media-heading {
+                margin-top: 0 !important;
+            }
+        }
+     }
+
+     @media (min-width: 1100px) {
+         .main_container {
+              .section_content {
+                  width: 1024px !important;
+              }
+          }
+     }
+     @media (min-width: 992px) and (max-width: 1024px) {
+         #microsite_panel {
+           overflow: hidden;
+         }
+     }
+     @media (min-width: 768px) {
+         .content {
+            .modal-dialog {
+               width: 600px;
+               margin: 15% auto;
+            }
+         }
+         .row-center-sm {
+             display: flex;
+             align-items: center;
+         }
+     }
+     @media (min-width: 768px) and (max-width: 1024px){
+         #banner .view .view-content {
+             margin-bottom: 0 !important;
+         }
+     }
+     @media (max-width: 767px){
+         .section_container.no_left_sidebar .section_content {
+            width: 100% !important;
+         }
+     }
+ }

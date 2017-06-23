@@ -1,0 +1,89 @@
+/**
+ * Modals Styles
+ * --------------------------------------------------
+ */
+.#{$site-name} {
+    .modal {
+        .modal-content {
+            border-radius: 16px;
+            border: 3px solid $close-line-color;
+            overflow: hidden;
+        }
+        .modal-header {
+            background: white;
+            border-radius: 15px 15px 0 0;
+            border: none;
+            padding: 15px 15px 0;
+
+            h3 {
+                color: white;
+                font-size: 22px;
+                padding: 0 15px;
+                margin: 0;
+            }
+            .close {
+                background: rgba(white, 0.8);
+                height: 25px;
+                width: 25px;
+                border-radius: 50%;
+                border: 3px solid $close-line-color;
+                line-height: 0;
+                color: $close-line-color;
+                font-size: 30px;
+                padding-bottom: 6px;
+                opacity: 1;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+        .modal-body {
+            background: white;
+            padding: 0 15px 15px;
+
+            h4 {
+                text-transform: none;
+                font-size: 19px;
+                font-weight: 700;
+                margin: 0 15px 15px 15px;
+                color: $accordion-selected-bg !important;
+            }
+            p {
+                border-top: 1px solid white;
+                margin: -1px 15px !important;
+                padding: 15px 0;
+                color: black !important;
+
+                &:not(:last-child) {
+                    border-bottom: 1px solid white;
+                }
+            }
+        }
+        .modal-footer {
+            & > * {
+                width: 25%;
+                height: 50px;
+            }
+            .bienestar-laboral-logo {
+                float: left;
+                background: url('#{$images-path}logo-bienestarlaboral.png') no-repeat center/contain;
+            }
+            .new-country-logo {
+                background: url('#{$images-path}logo-nuevopais.png') no-repeat center/contain;
+            }
+            .mineducacion-logo {
+                background: url('#{$images-path}logo-mineducacion.png') no-repeat center/contain;
+            }
+            .new-country-logo, .mineducacion-logo {
+                float: right;
+            }
+        }
+
+        @media (max-width: 767px){
+          .modal-footer > * {
+              width: 33% !important;
+          }
+        }
+    }
+}

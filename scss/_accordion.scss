@@ -1,0 +1,100 @@
+/**
+* Accordion Styles
+* --------------------------------------------------
+*/
+.#{$site-name} {
+    .panel-default {
+       & > .panel-heading {
+            padding: 0px !important;
+
+            & > a {
+                padding: 10px 15px;
+                display: block;
+                text-align: initial;
+                text-decoration: none;
+                border-radius: 8px 8px 5px 5px;
+
+                &[aria-expanded="true"] {
+                    background-color: $accordion-selected-bg !important;
+
+                    h4 {
+                        font-weight: 700;
+                    }
+                }
+                & > h4 {
+                    color: white;
+                    margin: 0px !important;
+                    font-weight: 500;
+                }
+            }
+       }
+       &:nth-child(odd) > .panel-heading > a {
+            background-color: $accordion-odd-bg;
+       }
+       &:nth-child(even) > .panel-heading > a {
+            background-color: $accordion-even-bg;
+       }
+       .panel-collapse {
+          margin: -3px 0;
+
+          .panel-body {
+            border-top: none;
+            border-left: 1px solid lightgray;
+            border-right: 1px solid lightgray;
+            padding: 18px 15px;
+          }
+       }
+    }
+
+    .panel {
+        border: none;
+
+        .panel-default {
+            border-radius: 10px;
+        }
+    }
+    .panel-group .panel+.panel {
+        margin-top: 0px;
+    }
+
+    .ui-accordion {
+        .ui-icon {
+            display: none;
+        }
+        .views-row {
+            border-radius: 8px;
+            .views-field-title {
+                border: none;
+                margin: 0;
+                background: none !important;
+                border-radius: 8px 8px 0 0;
+
+                a {
+                text-align: left;
+                padding: 10px 15px;
+                line-height: 100%;
+
+                    .field-content {
+                        color: white;
+                        font-weight: 500;
+                        text-transform: uppercase;
+                        font-size: 16px;
+                    }
+                }
+            }
+            &:nth-child(odd) {
+                background: $accordion-odd-bg !important;
+            }
+            &:nth-child(even) {
+                background: $accordion-even-bg !important;
+            }
+            .ui-state-active {
+                background: $accordion-selected-bg !important;
+
+                .field-content{
+                    font-weight: 700 !important;
+                }
+            }
+        }
+    }
+}
