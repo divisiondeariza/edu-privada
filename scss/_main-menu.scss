@@ -15,6 +15,15 @@
 
                   li {
                       &.parent_menu {
+                          &:last-child {
+                              & > a {
+                                  border: none;
+
+                                  &:hover {
+                                      border-bottom: 4px solid $main-menu-vertical-separator;
+                                  }
+                              }
+                          }
                           & > a {
                               border-right: 1px solid $main-menu-horizontal-separator;
                               padding: 10px 5px !important;
@@ -25,21 +34,12 @@
                               border-bottom: 4px solid $main-menu-vertical-separator;
                           }
                           & > .children_menu {
-                          top: 95%;
-                          height: 0px;
-                          background: transparent;
-                          z-index:100;
-                          position: relative;
-                          &:last-child {
-                              & > a {
-                                  border: none;
-
-                                  &:hover {
-                                      border-bottom: 4px solid $main-menu-vertical-separator;
-                                  }
-                              }
-                          }
-                          li {
+                              top: 95%;
+                              height: 0px;
+                              background: transparent;
+                              z-index:100;
+                              position: relative;
+                              li {
                               display: block;
 
                               &:first-child {
@@ -69,7 +69,7 @@
                                 }
                               }
                           }
-                      }
+                          }
                       }
                       &:hover{
                         color: $main-menu-text-hover;
