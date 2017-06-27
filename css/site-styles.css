@@ -1206,7 +1206,7 @@ h1.logo {
         margin: 0 6% 2% 2%; }
       .site-eduprivada .home-menu .view-content .views-row a {
         min-height: 330px; } }
-  @media (min-width: 768px) {
+  @media (max-width: 767px) {
     .site-eduprivada .home-menu .view-content .views-row {
       margin: 0 0 4%; }
       .site-eduprivada .home-menu .view-content .views-row a {
