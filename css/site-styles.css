@@ -650,16 +650,22 @@ h1.logo {
  * --------------------------------------------------
  */
 .site-eduprivada #microsite_panel .slide .pane-content > .menu {
-  background-color: #2a569b !important; }
+  background-color: #eef8f8 !important;
+  padding: 15px; }
   .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > a {
-    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid transparent;
     padding: 10px 5px !important;
-    font-size: 15px !important; }
+    font-size: 15px !important;
+    text-align: left;
+    color: #1f0d2e;
+    font-weight: 700;
+    border-bottom: 4px solid #a7bec2; }
   .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu {
     top: 95%;
     height: 0px;
     background: transparent;
-    z-index: 100; }
+    z-index: 100;
+    position: relative; }
     .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li {
       display: block; }
       .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:first-child {
@@ -667,7 +673,7 @@ h1.logo {
       .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:last-child {
         border-bottom: none; }
       .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a {
-        background-color: #0b204e !important;
+        background-color: transparent !important;
         border-bottom: 1px solid rgba(153, 153, 153, 0.4) !important;
         color: white !important;
         line-height: 14px;
@@ -676,7 +682,7 @@ h1.logo {
         padding: 15px; }
         .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a:hover {
           background: #000a34 !important;
-          color: #cc8e55 !important;
+          color: #1f0d2e !important;
           text-decoration: none;
           padding: 18px 15px !important;
           display: block;
@@ -687,27 +693,27 @@ h1.logo {
           -o-transition: all 0.2s ease;
           transition: all 0.2s ease; }
   .site-eduprivada #microsite_panel .slide .pane-content > .menu li:hover {
-    color: #cc8e55;
+    color: #1f0d2e;
     text-decoration: none !important;
-    background-color: #0b204e; }
+    background-color: rgba(31, 13, 46, 0.1); }
   .site-eduprivada #microsite_panel .slide .pane-content > .menu li.expanded > a:hover {
-    color: #cc8e55 !important;
+    color: #1f0d2e !important;
     text-decoration: none !important;
-    background-color: #0b204e; }
+    background-color: rgba(31, 13, 46, 0.1); }
   .site-eduprivada #microsite_panel .slide .pane-content > .menu:hover {
-    color: #cc8e55 !important;
+    color: #1f0d2e !important;
     text-decoration: none !important; }
     .site-eduprivada #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu:hover {
       background-color: #0b204e;
       height: auto; }
     .site-eduprivada #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu > a:hover {
-      color: #cc8e55 !important;
+      color: #1f0d2e !important;
       text-decoration: none !important; }
     .site-eduprivada #microsite_panel .slide .pane-content > .menu:hover li.parent_menu:hover > .children_menu {
       height: auto; }
 @media (min-width: 768px) {
   .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu {
-    width: 20%; } }
+    width: 100%; } }
 @media (max-width: 767px) {
   .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu {
     width: 100%; }

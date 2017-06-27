@@ -15,11 +15,11 @@ $site-bg-shadow:                  #5d90aa !default;
 $content-bg:                      #b7d0d3 !default;
 $headers-default-text-color:      #1F2B49 !default;
 $h2-text-color:                   #162a55 !default;
-$main-menu-bg:                    #2a569b !default;
+$main-menu-bg:                    #eef8f8 !default;
 $main-menu-parent-hover-bg:       #0b204e !default;
-$main-menu-text-hover:            #cc8e55 !default;
-$main-menu-horizontal-separator:  rgba(255, 255, 255, 0.3) !default;
-$main-menu-item-bg:               #0b204e !default;
+$main-menu-text-hover:            #1f0d2e !default;
+$main-menu-horizontal-separator:  transparent !default;
+$main-menu-item-bg:               transparent !default;
 $main-menu-item-hover-bg:         #000a34 !default;
 $main-menu-item-separator:        rgba(153, 153, 153, 0.4) !default;
 $lateral-menu-bg:                 #868686 !default;
@@ -44,6 +44,7 @@ $close-line-color:                #858585 !default;
 $tabs-text-color:                 #061236 !default;
 $current-pager-color:             #DE3A73 !default;
 $home-menu-text-color:            #1f0d2e !default;
+$main-menu-vertical-separator:    #a7bec2 !default;
 //Measures
 // -------------------------------
 $main-header-height:              132px;

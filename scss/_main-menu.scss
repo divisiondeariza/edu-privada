@@ -8,6 +8,7 @@
           .pane-content {
               & > .menu {
                   background-color: $main-menu-bg !important;
+                  padding: 15px;
 
                   li {
                       &.parent_menu {
@@ -15,12 +16,17 @@
                               border-right: 1px solid $main-menu-horizontal-separator;
                               padding: 10px 5px !important;
                               font-size: 15px !important;
+                              text-align: left;
+                              color: $home-menu-text-color;
+                              font-weight: 700;
+                              border-bottom: 4px solid $main-menu-vertical-separator;
                           }
                           & > .children_menu {
                           top: 95%;
                           height: 0px;
                           background: transparent;
                           z-index:100;
+                          position: relative;
 
                           li {
                               display: block;
@@ -56,14 +62,14 @@
                       &:hover{
                         color: $main-menu-text-hover;
                         text-decoration: none !important;
-                        background-color: $main-menu-parent-hover-bg;
+                        background-color: rgba($home-menu-text-color, 0.1);
                       }
                       &.expanded {
                           & > a {
                               &:hover {
                                 color: $main-menu-text-hover !important;
                                 text-decoration: none !important;
-                                  background-color: $main-menu-parent-hover-bg;
+                                background-color: rgba($home-menu-text-color, 0.1);
                               }
                           }
                       }
@@ -95,7 +101,7 @@
 
               @media (min-width: 768px) {
                   & > .menu li.parent_menu {
-                      width: 20%;
+                      width: 100%;
                   }
               }
 
