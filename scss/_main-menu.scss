@@ -39,36 +39,47 @@
                               background: transparent;
                               z-index:100;
                               position: relative;
+
                               li {
-                              display: block;
+                                  display: block;
 
-                              &:first-child {
-                                border-top: none;
-                              }
-                              &:last-child {
-                                border-bottom:none;
-                              }
-                              a {
-                                background-color: $main-menu-item-bg !important;
-                                border-bottom: 1px solid $main-menu-item-separator !important;
-                                color: $home-menu-text-color !important;
-                                line-height: 14px;
-                                font-size: 14px!important;
-                                height: auto;
-                                padding: 15px;
-                                font-weight: 600;
+                                  & > .menu {
+                                      display: none;
+                                  }
+                                  &:hover > .menu {
+                                      display: block;
 
-                                &:hover {
-                                    background: $main-menu-item-hover-bg !important;
-                                    color: $main-menu-text-hover !important;
-                                    text-decoration: none;
-                                    padding: 18px 15px!important;
-                                    display: block;
-                                    font-weight: 700;
-                                    @include transition-properties(all 0.2s ease);
-                                }
+                                      & > li > a {
+                                          padding-left: 30px !important;
+                                      }
+                                  }
+                                  &:first-child {
+                                    border-top: none;
+                                  }
+                                  &:last-child {
+                                    border-bottom:none;
+                                  }
+                                  a {
+                                    background-color: $main-menu-item-bg !important;
+                                    border-bottom: 1px solid $main-menu-item-separator !important;
+                                    color: $home-menu-text-color !important;
+                                    line-height: 14px;
+                                    font-size: 14px!important;
+                                    height: auto;
+                                    padding: 15px;
+                                    font-weight: 600;
+
+                                    &:hover {
+                                        background: $main-menu-item-hover-bg !important;
+                                        color: $main-menu-text-hover !important;
+                                        text-decoration: none;
+                                        padding: 18px 15px!important;
+                                        display: block;
+                                        font-weight: 700;
+                                        @include transition-properties(all 0.2s ease);
+                                    }
+                                  }
                               }
-                          }
                           }
                       }
                       &:hover{
