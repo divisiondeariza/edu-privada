@@ -1169,8 +1169,8 @@ h1.logo {
  * Home Menu Styles
  * --------------------------------------------------
  */
-.site-eduprivada .home-menu {
-  position: absolute; }
+.site-eduprivada .home-menu .view-content .views-row {
+  display: inline-block; }
   .site-eduprivada .home-menu .view-content .views-row a {
     background: white;
     display: block;
@@ -1185,34 +1185,34 @@ h1.logo {
     box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.25); }
   .site-eduprivada .home-menu .view-content .views-row img {
     padding-bottom: 20px; }
-  @media (min-width: 992px) {
-    .site-eduprivada .home-menu {
-      top: 50%; } }
-  @media (max-width: 991px) {
-    .site-eduprivada .home-menu {
-      top: 35vw; } }
-  @media (min-width: 768px) {
-    .site-eduprivada .home-menu .view-content {
-      display: flex;
-      align-items: baseline; }
-      .site-eduprivada .home-menu .view-content .views-row {
-        width: 30%;
-        display: inline-block; }
-        .site-eduprivada .home-menu .view-content .views-row:first-child {
-          margin: 0 2% 2% 6%; }
-        .site-eduprivada .home-menu .view-content .views-row:nth-child(2) {
-          margin: 0 2% 2%; }
-        .site-eduprivada .home-menu .view-content .views-row:last-child {
-          margin: 0 6% 2% 2%; }
-        .site-eduprivada .home-menu .view-content .views-row a {
-          min-height: 330px; } }
-  @media (max-width: 767px) {
+@media (min-width: 992px) {
+  .site-eduprivada .home-menu {
+    top: 50%;
+    position: absolute; } }
+@media (max-width: 991px) {
+  .site-eduprivada .home-menu {
+    margin-top: -9vw; } }
+@media (min-width: 768px) {
+  .site-eduprivada .home-menu .view-content {
+    display: flex;
+    align-items: baseline; }
     .site-eduprivada .home-menu .view-content .views-row {
-      width: 100%;
-      display: block;
-      margin: 0 0 4%; }
+      width: 30%; }
+      .site-eduprivada .home-menu .view-content .views-row:first-child {
+        margin: 0 2% 2% 6%; }
+      .site-eduprivada .home-menu .view-content .views-row:nth-child(2) {
+        margin: 0 2% 2%; }
+      .site-eduprivada .home-menu .view-content .views-row:last-child {
+        margin: 0 6% 2% 2%; }
       .site-eduprivada .home-menu .view-content .views-row a {
-        width: 70%;
-        margin: auto; } }
+        min-height: 330px; } }
+@media (max-width: 767px) {
+  .site-eduprivada .home-menu .view-content .views-row {
+    width: 100%;
+    margin: 0 0 4%; }
+    .site-eduprivada .home-menu .view-content .views-row a {
+      width: 70%;
+      margin: auto;
+      max-width: 400px; } }
 
 /*# sourceMappingURL=site-styles.css.map */

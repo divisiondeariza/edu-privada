@@ -4,10 +4,10 @@
  */
  .#{$site-name} {
    .home-menu {
-        position: absolute;
-
         .view-content {
             .views-row {
+                display: inline-block;
+
                 a {
                     background: white;
                     display: block;
@@ -28,11 +28,12 @@
         @media (min-width: 992px) {
             & {
                 top: 50%;
+                position: absolute;
             }
         }
         @media (max-width: 991px) {
             & {
-                top: 35vw;
+                margin-top: -9vw;
             }
         }
         @media (min-width: 768px) {
@@ -43,7 +44,6 @@
 
                     .views-row {
                         width: 30%;
-                        display: inline-block;
                         &:first-child {
                             margin: 0 2% 2% 6%;
                         }
@@ -65,12 +65,12 @@
                 .view-content {
                     .views-row {
                         width: 100%;
-                        display: block;
                         margin: 0 0 4%;
 
                         a {
                             width: 70%;
                             margin: auto;
+                            max-width: 400px;
                         }
                     }
                 }
