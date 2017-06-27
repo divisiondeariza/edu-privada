@@ -651,7 +651,10 @@ h1.logo {
  */
 .site-eduprivada #microsite_panel .slide .pane-content > .menu {
   background-color: #eef8f8 !important;
-  padding: 15px; }
+  padding: 5px 15px;
+  border: 1px solid #a7bec2;
+  border-radius: 7px;
+  margin-top: 15px; }
   .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > a {
     border-right: 1px solid transparent;
     padding: 10px 5px !important;
@@ -666,6 +669,10 @@ h1.logo {
     background: transparent;
     z-index: 100;
     position: relative; }
+    .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu:last-child > a {
+      border: none; }
+      .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu:last-child > a:hover {
+        border-bottom: 4px solid #a7bec2; }
     .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li {
       display: block; }
       .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:first-child {
@@ -673,20 +680,21 @@ h1.logo {
       .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:last-child {
         border-bottom: none; }
       .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a {
-        background-color: transparent !important;
+        background-color: #eef8f8 !important;
         border-bottom: 1px solid rgba(153, 153, 153, 0.4) !important;
-        color: white !important;
+        color: #1f0d2e !important;
         line-height: 14px;
         font-size: 14px !important;
         height: auto;
-        padding: 15px; }
+        padding: 15px;
+        font-weight: 600; }
         .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a:hover {
-          background: #000a34 !important;
+          background: white !important;
           color: #1f0d2e !important;
           text-decoration: none;
           padding: 18px 15px !important;
           display: block;
-          font-weight: 600;
+          font-weight: 700;
           -webkit-transition: all 0.2s ease;
           -moz-transition: all 0.2s ease;
           -ms-transition: all 0.2s ease;
@@ -698,7 +706,6 @@ h1.logo {
     background-color: rgba(31, 13, 46, 0.1); }
   .site-eduprivada #microsite_panel .slide .pane-content > .menu li.expanded > a:hover {
     color: #1f0d2e !important;
-    text-decoration: none !important;
     background-color: rgba(31, 13, 46, 0.1); }
   .site-eduprivada #microsite_panel .slide .pane-content > .menu:hover {
     color: #1f0d2e !important;

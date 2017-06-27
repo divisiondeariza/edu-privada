@@ -8,7 +8,10 @@
           .pane-content {
               & > .menu {
                   background-color: $main-menu-bg !important;
-                  padding: 15px;
+                  padding: 5px 15px;
+                  border: 1px solid $main-menu-vertical-separator;
+                  border-radius: 7px;
+                  margin-top: 15px;
 
                   li {
                       &.parent_menu {
@@ -27,7 +30,15 @@
                           background: transparent;
                           z-index:100;
                           position: relative;
+                          &:last-child {
+                              & > a {
+                                  border: none;
 
+                                  &:hover {
+                                      border-bottom: 4px solid $main-menu-vertical-separator;
+                                  }
+                              }
+                          }
                           li {
                               display: block;
 
@@ -40,11 +51,12 @@
                               a {
                                 background-color: $main-menu-item-bg !important;
                                 border-bottom: 1px solid $main-menu-item-separator !important;
-                                color: white !important;
+                                color: $home-menu-text-color !important;
                                 line-height: 14px;
                                 font-size: 14px!important;
                                 height: auto;
                                 padding: 15px;
+                                font-weight: 600;
 
                                 &:hover {
                                     background: $main-menu-item-hover-bg !important;
@@ -52,7 +64,7 @@
                                     text-decoration: none;
                                     padding: 18px 15px!important;
                                     display: block;
-                                    font-weight: 600;
+                                    font-weight: 700;
                                     @include transition-properties(all 0.2s ease);
                                 }
                               }
@@ -68,7 +80,6 @@
                           & > a {
                               &:hover {
                                 color: $main-menu-text-hover !important;
-                                text-decoration: none !important;
                                 background-color: rgba($home-menu-text-color, 0.1);
                               }
                           }
