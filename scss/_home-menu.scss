@@ -7,32 +7,23 @@
         position: absolute;
 
         .view-content {
-            display: flex;
-            align-items: baseline;
-
             .views-row {
                 width: 30%;
                 display: inline-block;
-                @include shadow-properties(4px 4px 10px 2px rgba(0, 0, 0, 0.25));
 
-                &:first-child {
-                    margin: 0 2% 0 6%;
-                }
-                &:nth-child(2) {
-                    margin: 0 2%;
-                }
-                &:last-child {
-                    margin: 0 6% 0 2%;
-                }
                 a {
                     background: white;
                     display: block;
-                    padding: 15px 15px 40px;
+                    padding: 15px 15px 30px;
                     border-radius: 7px;
                     color: #1f0d2e;
                     font-weight: 600;
                     font-size: 20px;
                     line-height: 120%;
+                    @include shadow-properties(4px 4px 10px 2px rgba(0, 0, 0, 0.25));
+                }
+                img {
+                    padding-bottom: 20px;
                 }
             }
         }
@@ -45,6 +36,43 @@
         @media (max-width: 991px) {
             & {
                 top: 35vw;
+            }
+        }
+        @media (min-width: 768px) {
+            & {
+                .view-content {
+                    display: flex;
+                    align-items: baseline;
+
+                    .views-row {
+                        &:first-child {
+                            margin: 0 2% 2% 6%;
+                        }
+                        &:nth-child(2) {
+                            margin: 0 2% 2%;
+                        }
+                        &:last-child {
+                            margin: 0 6% 2% 2%;
+                        }
+                        a {
+                            min-height: 330px;
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: 768px) {
+            & {
+                .view-content {
+                    .views-row {
+                        margin: 0 0 4%;
+
+                        a {
+                            width: 70%;
+                            margin: auto;
+                        }
+                    }
+                }
             }
         }
     }
