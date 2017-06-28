@@ -678,7 +678,7 @@ h1.logo {
       .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li > .menu {
         display: none; }
       .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:hover > .menu {
-        display: block; }
+        /*display: block;*/ }
         .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:hover > .menu > li > a {
           padding-left: 30px !important; }
       .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:first-child {
@@ -723,7 +723,7 @@ h1.logo {
       color: #1f0d2e !important;
       text-decoration: none !important; }
     .site-eduprivada #microsite_panel .slide .pane-content > .menu:hover li.parent_menu:hover > .children_menu {
-      height: auto; }
+      /*height:auto;*/ }
 @media (min-width: 768px) {
   .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu {
     width: 100%; } }
