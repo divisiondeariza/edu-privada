@@ -840,6 +840,12 @@ h1.logo {
     width: 100%;
     z-index: 10;
     padding: 0 15px; }
+  @media (min-width: 1000px) {
+    .site-eduprivada #edu_privada_home_slider {
+      margin: -30% 2% 50px; } }
+  @media (max-width: 999px) {
+    .site-eduprivada #edu_privada_home_slider {
+      margin: -31% 2% 30px; } }
   @media (max-width: 767px) {
     .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-php, .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-body {
       display: none; }
