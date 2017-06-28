@@ -46,14 +46,17 @@
                                   display: block;
 
                                   & > .menu {
-                                      display: none;
-                                  }
-                                  &:hover > .menu {
-                                      /*display: block;*/
+                                      max-height: 0;
+                                      transition: max-height 0.5s ease !important;
+                                      overflow: hidden;
+                                      /*display: none;*/
 
                                       & > li > a {
                                           padding-left: 30px !important;
                                       }
+                                  }
+                                  &:hover > .menu {
+                                      /*display: block;*/
                                   }
                                   &:first-child {
                                     border-top: none;

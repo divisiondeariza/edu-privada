@@ -678,11 +678,14 @@ h1.logo {
     .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li {
       display: block; }
       .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li > .menu {
-        display: none; }
+        max-height: 0;
+        transition: max-height 0.5s ease !important;
+        overflow: hidden;
+        /*display: none;*/ }
+        .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li > .menu > li > a {
+          padding-left: 30px !important; }
       .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:hover > .menu {
         /*display: block;*/ }
-        .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:hover > .menu > li > a {
-          padding-left: 30px !important; }
       .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:first-child {
         border-top: none; }
       .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li:last-child {
