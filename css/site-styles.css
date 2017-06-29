@@ -725,7 +725,7 @@ h1.logo {
     color: #1f0d2e !important;
     text-decoration: none !important; }
     .site-eduprivada #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu:hover {
-      background-color: #0b204e;
+      background-color: transparent;
       height: auto; }
     .site-eduprivada #microsite_panel .slide .pane-content > .menu:hover li.parent_menu > .children_menu > a:hover {
       color: #1f0d2e !important;
@@ -739,7 +739,9 @@ h1.logo {
   .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu {
     width: 100%; }
     .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > a, .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > .children_menu li a {
-      padding: 10px 15px !important; } }
+      padding: 10px 15px !important; }
+  .site-eduprivada #microsite_panel .slide .pane-content .menu .children_menu li {
+    margin: 0 !important; } }
 
 /**
  * Slider Styles

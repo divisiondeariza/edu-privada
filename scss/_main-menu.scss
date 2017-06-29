@@ -136,7 +136,6 @@
                       width: 100%;
                   }
               }
-
               @media (max-width: 767px)
               {
                   & > .menu li.parent_menu {
@@ -147,6 +146,9 @@
                           padding: 10px 15px !important;
                       }
 
+                  }
+                  .menu .children_menu li {
+                      margin: 0 !important;
                   }
               }
           }
