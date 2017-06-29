@@ -829,18 +829,13 @@ h1.logo {
       background: white; }
   .site-eduprivada #edu_privada_home_slider .views-field-title {
     position: absolute;
-    top: 0;
-    width: 40%;
-    right: 0;
     background-color: rgba(255, 255, 255, 0.7);
     height: 30%; }
     .site-eduprivada #edu_privada_home_slider .views-field-title h1 {
-      margin: 0;
-      padding: 18px 70px 0 30px; }
+      margin: 0; }
       .site-eduprivada #edu_privada_home_slider .views-field-title h1 * {
         color: black;
         font-weight: 700;
-        font-size: 25px;
         display: block;
         text-align: left; }
   .site-eduprivada #edu_privada_home_slider .skin-default {
@@ -863,7 +858,21 @@ h1.logo {
     .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-title {
       bottom: 0;
       height: 60px;
-      padding: 0 65px; } }
+      padding: 0 65px;
+      width: 100%; }
+      .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-title h1 {
+        padding: 18px 0 0; }
+        .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-title h1 * {
+          font-size: 25px; } }
+  @media (min-width: 768px) {
+    .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-title {
+      top: 0;
+      width: 40%;
+      right: 0; }
+      .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-title h1 {
+        padding: 18px 70px 0 30px; }
+        .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-title h1 * {
+          font-size: 22px; } }
 
 /**
  * Tables Styles

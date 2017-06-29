@@ -127,20 +127,15 @@
           }
           .views-field-title {
               position: absolute;
-              top: 0;
-              width: 40%;
-              right: 0;
               background-color: rgba(white, 0.7);
               height: 30%;
 
               h1 {
                   margin: 0;
-                  padding: 18px 70px 0 30px;
 
                   * {
                       color: black;
                       font-weight: 700;
-                      font-size: 25px;
                       display: block;
                       text-align: left;
                   }
@@ -176,6 +171,30 @@
                       bottom: 0;
                       height: 60px;
                       padding: 0 65px;
+                      width: 100%;
+
+                      h1 {
+                        padding: 18px 0 0;
+
+                            * {
+                                font-size: 25px;
+                            }
+                      }
+                  }
+              }
+          }
+          @media (min-width: 768px) {
+              .views_slideshow_slide > div .views-field-title {
+                  top: 0;
+                  width: 40%;
+                  right: 0;
+
+                  h1 {
+                      padding: 18px 70px 0 30px;
+
+                      * {
+                          font-size: 22px;
+                      }
                   }
               }
           }
