@@ -756,15 +756,15 @@ h1.logo {
     .site-eduprivada #edu_privada_home_slider .views_slideshow_controls_text_next a {
       color: transparent;
       padding-bottom: 35px;
-      background: url("http://52.37.84.217/edu-privada/img/img-spritesheet.png") no-repeat -59px -1px; }
+      background: url("http://52.37.84.217/edu-privada/img/img-arrow-next.png") no-repeat; }
       .site-eduprivada #edu_privada_home_slider .views_slideshow_controls_text_next a:hover {
-        background-position: -59px -55px !important; }
+        /*background-position: -59px -55px !important;*/ }
   .site-eduprivada #edu_privada_home_slider .views-slideshow-controls-text-previous a {
     color: transparent;
     padding-bottom: 35px;
-    background: url("http://52.37.84.217/edu-privada/img/img-spritesheet.png") no-repeat -6px -1px; }
+    background: url("http://52.37.84.217/edu-privada/img/img-arrow-prev.png") no-repeat; }
     .site-eduprivada #edu_privada_home_slider .views-slideshow-controls-text-previous a:hover {
-      background-position: -6px -55px !important; }
+      /*background-position: -6px -55px !important;*/ }
   .site-eduprivada #edu_privada_home_slider .views_slideshow_slide, .site-eduprivada #edu_privada_home_slider .views_slideshow_slide img {
     width: 100% !important; }
   .site-eduprivada #edu_privada_home_slider .views_slideshow_slide label {
@@ -776,16 +776,16 @@ h1.logo {
     font-weight: 700; }
   .site-eduprivada #edu_privada_home_slider .views_slideshow_slide .field-content p {
     font-size: 13px;
-    margin: 0 25% 20px 0 !important; }
+    margin: 0 0 20px !important; }
   .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div {
     position: relative; }
     .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-body {
       position: absolute;
-      top: 0;
+      top: 30%;
       width: 40%;
       right: 0;
       background-color: rgba(255, 255, 255, 0.7);
-      padding: 0 15px 15px;
+      padding: 0 70px 15px 30px;
       color: black;
       height: 70%; }
       .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-body h4 {
@@ -825,7 +825,8 @@ h1.logo {
     margin-top: 15px;
     text-decoration: blink; }
     .site-eduprivada #edu_privada_home_slider .views-more-link:hover {
-      text-decoration: underline; }
+      text-decoration: underline;
+      background: white; }
   .site-eduprivada #edu_privada_home_slider .views-field-title {
     position: absolute;
     top: 0;
@@ -835,7 +836,7 @@ h1.logo {
     height: 30%; }
     .site-eduprivada #edu_privada_home_slider .views-field-title h1 {
       margin: 0;
-      padding: 15px 15px 0; }
+      padding: 18px 70px 0 30px; }
       .site-eduprivada #edu_privada_home_slider .views-field-title h1 * {
         color: black;
         font-weight: 700;
