@@ -39,27 +39,31 @@
         p {
           margin-top: 10px !important;
           color: $paragraph-text-color !important;
+          padding: 0 5px;
         }
      }
-     .home-content {
+     .home-content, .general-content {
          @extend .content-styles;
-         
+
         .view-content {
-            ul {
+            ul, ol {
                 padding-left: 40px !important;
+
+                li {
+                    margin-top: 10px !important;
+                }
             }
-            li {
-                margin-top: 5px !important;
-                list-style: initial !important;
+            ol {
+                li {
+                    list-style: decimal !important;
+                }
             }
-            .home-image {
-                background: url("#{$images-path}img_home.jpg") no-repeat center / contain;
-                min-height: 150px;
+            ul {
+                li {
+                    list-style: disc !important;
+                }
             }
         }
-     }
-     .general-content {
-        @extend .content-styles;
      }
      .registration-content {
         .row > * {
