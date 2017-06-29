@@ -42,7 +42,7 @@
           padding: 0 5px;
         }
      }
-     .home-content, .general-content {
+     .home-content, .general-content, .lateral-content {
          @extend .content-styles;
 
         .view-content {
@@ -93,6 +93,12 @@
                   width: 1024px !important;
               }
           }
+     }
+     @media (min-width: 992px) {
+         .lateral-content {
+            width: 22%;
+            margin-left: 15px;
+         }
      }
      @media (min-width: 992px) and (max-width: 1024px) {
          #microsite_panel {

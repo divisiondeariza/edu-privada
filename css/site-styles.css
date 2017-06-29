@@ -547,7 +547,7 @@ h1.logo {
  * General Styles
  * --------------------------------------------------
  */
-.content-styles, .site-eduprivada .home-content, .site-eduprivada .general-content {
+.content-styles, .site-eduprivada .home-content, .site-eduprivada .general-content, .site-eduprivada .lateral-content {
   background: white;
   border-radius: 7px;
   margin: 15px 0;
@@ -579,13 +579,13 @@ h1.logo {
   margin-top: 10px !important;
   color: #666666 !important;
   padding: 0 5px; }
-.site-eduprivada .home-content .view-content ul, .site-eduprivada .home-content .view-content ol, .site-eduprivada .general-content .view-content ul, .site-eduprivada .general-content .view-content ol {
+.site-eduprivada .home-content .view-content ul, .site-eduprivada .home-content .view-content ol, .site-eduprivada .general-content .view-content ul, .site-eduprivada .general-content .view-content ol, .site-eduprivada .lateral-content .view-content ul, .site-eduprivada .lateral-content .view-content ol {
   padding-left: 40px !important; }
-  .site-eduprivada .home-content .view-content ul li, .site-eduprivada .home-content .view-content ol li, .site-eduprivada .general-content .view-content ul li, .site-eduprivada .general-content .view-content ol li {
+  .site-eduprivada .home-content .view-content ul li, .site-eduprivada .home-content .view-content ol li, .site-eduprivada .general-content .view-content ul li, .site-eduprivada .general-content .view-content ol li, .site-eduprivada .lateral-content .view-content ul li, .site-eduprivada .lateral-content .view-content ol li {
     margin-top: 10px !important; }
-.site-eduprivada .home-content .view-content ol li, .site-eduprivada .general-content .view-content ol li {
+.site-eduprivada .home-content .view-content ol li, .site-eduprivada .general-content .view-content ol li, .site-eduprivada .lateral-content .view-content ol li {
   list-style: decimal !important; }
-.site-eduprivada .home-content .view-content ul li, .site-eduprivada .general-content .view-content ul li {
+.site-eduprivada .home-content .view-content ul li, .site-eduprivada .general-content .view-content ul li, .site-eduprivada .lateral-content .view-content ul li {
   list-style: disc !important; }
 .site-eduprivada .registration-content .row > * {
   text-align: center;
@@ -600,6 +600,10 @@ h1.logo {
 @media (min-width: 1100px) {
   .site-eduprivada .main_container .section_content {
     width: 1024px !important; } }
+@media (min-width: 992px) {
+  .site-eduprivada .lateral-content {
+    width: 22%;
+    margin-left: 15px; } }
 @media (min-width: 992px) and (max-width: 1024px) {
   .site-eduprivada #microsite_panel {
     overflow: hidden; } }
