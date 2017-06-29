@@ -2,6 +2,13 @@
  * General Styles
  * --------------------------------------------------
  */
+
+.content-styles {
+    background: white;
+    border-radius: 7px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
  .#{$site-name} {
      .main_container {
         @include main-background-properties($site-bg, $site-bg-shadow);
@@ -35,6 +42,8 @@
         }
      }
      .home-content {
+         @extend .content-styles;
+         
         .view-content {
             ul {
                 padding-left: 40px !important;
@@ -48,6 +57,9 @@
                 min-height: 150px;
             }
         }
+     }
+     .general-content {
+        @extend .content-styles;
      }
      .registration-content {
         .row > * {

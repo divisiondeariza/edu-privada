@@ -547,6 +547,12 @@ h1.logo {
  * General Styles
  * --------------------------------------------------
  */
+.content-styles, .site-eduprivada .home-content, .site-eduprivada .general-content {
+  background: white;
+  border-radius: 7px;
+  margin-top: 15px;
+  padding-bottom: 15px; }
+
 .site-eduprivada .main_container {
   background: #d5e3e6;
   background: -moz-linear-gradient(left, #d5e3e6 0%, #5d90aa 50%, #d5e3e6 100%);
@@ -626,7 +632,7 @@ h1.logo {
 .site-eduprivada .content h2 {
   font-size: 20px;
   color: white;
-  margin-top: 25px;
+  margin-top: 15px;
   font-weight: 600;
   padding: 9px 5px; }
 .site-eduprivada .content h3 {
