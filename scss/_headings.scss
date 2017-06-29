@@ -17,9 +17,10 @@
         }
         h2 {
             font-size: 20px;
-            color: $h2-text-color;
+            color: white;
             margin-top: 25px;
             font-weight: 600;
+            padding: 9px 5px;
             @extend .content-header-styles;
         }
         h3 {

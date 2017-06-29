@@ -625,9 +625,10 @@ h1.logo {
   font-size: 30px; }
 .site-eduprivada .content h2 {
   font-size: 20px;
-  color: #162a55;
+  color: white;
   margin-top: 25px;
-  font-weight: 600; }
+  font-weight: 600;
+  padding: 9px 5px; }
 .site-eduprivada .content h3 {
   font-size: 16px;
   color: #162a55;
@@ -1296,15 +1297,21 @@ h1.logo {
   background-position: -6px -7px; }
 .site-eduprivada.teachers-styles .site-title h1 {
   background: #51b701; }
+.site-eduprivada.teachers-styles h2 {
+  background: #51b701; }
 
 .site-eduprivada.families-styles .site-title span {
   background-position: -106px -7px; }
 .site-eduprivada.families-styles .site-title h1 {
   background: #ff7400; }
+.site-eduprivada.families-styles h2 {
+  background: #ff7400; }
 
 .site-eduprivada.researchers-styles .site-title span {
   background-position: -204px -7px; }
 .site-eduprivada.researchers-styles .site-title h1 {
+  background: #931c0a; }
+.site-eduprivada.researchers-styles h2 {
   background: #931c0a; }
 
 /*# sourceMappingURL=site-styles.css.map */

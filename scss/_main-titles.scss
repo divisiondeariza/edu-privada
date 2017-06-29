@@ -34,6 +34,9 @@
             background: $teachers-color;
         }
     }
+    h2 {
+        background: $teachers-color;
+    }
 }
 .#{$site-name}.families-styles {
     .site-title {
@@ -44,6 +47,9 @@
             background: $families-color;
         }
     }
+    h2 {
+        background: $families-color;
+    }
 }
 .#{$site-name}.researchers-styles {
     .site-title {
@@ -53,5 +59,8 @@
         h1 {
             background: $researchers-color;
         }
+    }
+    h2 {
+        background: $researchers-color;
     }
 }
