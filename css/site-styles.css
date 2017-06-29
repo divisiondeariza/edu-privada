@@ -1268,4 +1268,41 @@ h1.logo {
       margin: auto;
       max-width: 400px; } }
 
+/**
+ * Main Titles Styles
+ * --------------------------------------------------
+ */
+.site-eduprivada .site-title {
+  padding: 15px;
+  display: flex;
+  align-items: center; }
+  .site-eduprivada .site-title span {
+    position: absolute;
+    height: 85px;
+    width: 86px;
+    background: url("http://52.37.84.217/edu-privada/img/img-spritesheet.png") no-repeat;
+    left: 40px; }
+  .site-eduprivada .site-title h1 {
+    margin: 0 !important;
+    padding: 15px 15px 15px 140px;
+    width: 100%;
+    color: white !important;
+    font-size: 24px !important;
+    font-weight: 600 !important; }
+
+.site-eduprivada.teachers-styles .site-title span {
+  background-position: -6px -7px; }
+.site-eduprivada.teachers-styles .site-title h1 {
+  background: #51b701; }
+
+.site-eduprivada.families-styles .site-title span {
+  background-position: -106px -7px; }
+.site-eduprivada.families-styles .site-title h1 {
+  background: #ff7400; }
+
+.site-eduprivada.researchers-styles .site-title span {
+  background-position: -204px -7px; }
+.site-eduprivada.researchers-styles .site-title h1 {
+  background: #931c0a; }
+
 /*# sourceMappingURL=site-styles.css.map */
