@@ -550,7 +550,7 @@ h1.logo {
 .content-styles, .site-eduprivada .home-content, .site-eduprivada .general-content {
   background: white;
   border-radius: 7px;
-  margin-top: 15px;
+  margin: 15px 0;
   padding-bottom: 15px; }
 
 .site-eduprivada .main_container {
@@ -1330,7 +1330,9 @@ h1.logo {
   .site-eduprivada .related-sites h3 {
     margin-left: 20px; }
   .site-eduprivada .related-sites div .row > div {
-    height: 150px; }
+    height: 150px;
+    display: flex;
+    align-items: center; }
   .site-eduprivada .related-sites .site-link {
     display: block;
     width: 100%;
