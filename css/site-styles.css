@@ -852,25 +852,25 @@ h1.logo {
   @media (max-width: 999px) {
     .site-eduprivada #edu_privada_home_slider {
       margin: -31% 2% 30px; } }
-  @media (max-width: 767px) {
-    .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-php, .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-body {
-      display: none; }
-    .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-title {
-      bottom: 0;
-      height: 60px;
-      padding: 0 65px;
-      width: 100%; }
-      .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-title h1 {
-        padding: 18px 0 0; }
-        .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-title h1 * {
-          font-size: 25px; } }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-title {
       top: 0;
       width: 40%;
       right: 0; }
       .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-title h1 {
         padding: 18px 70px 0 30px; }
+        .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-title h1 * {
+          font-size: 25px; } }
+  @media (max-width: 991px) {
+    .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-php, .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-body {
+      display: none; }
+    .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-title {
+      bottom: 0;
+      height: 50px;
+      padding: 0 65px;
+      width: 100%; }
+      .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-title h1 {
+        padding: 15px 0 0; }
         .site-eduprivada #edu_privada_home_slider .views_slideshow_slide > div .views-field-title h1 * {
           font-size: 22px; } }
 
