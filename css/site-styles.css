@@ -591,20 +591,22 @@ h1.logo {
   list-style: decimal !important; }
 .site-eduprivada .home-content .view-content ul li, .site-eduprivada .general-content .view-content ul li, .site-eduprivada .lateral-content .view-content ul li {
   list-style: disc !important; }
-.site-eduprivada .general-content img {
-  float: left;
-  margin: 15px 15px 15px 5px; }
-.site-eduprivada .general-content .btn {
-  white-space: normal;
-  color: white !important;
-  text-decoration: blink !important;
-  min-height: 75px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1px; }
-  .site-eduprivada .general-content .btn.col-sm-3 {
-    width: 24%; }
+.site-eduprivada .general-content {
+  min-height: 500px; }
+  .site-eduprivada .general-content img {
+    float: left;
+    margin: 15px 15px 15px 5px; }
+  .site-eduprivada .general-content .btn {
+    white-space: normal;
+    color: white !important;
+    text-decoration: blink !important;
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px; }
+    .site-eduprivada .general-content .btn.col-sm-3 {
+      width: 24%; }
 .site-eduprivada .lateral-content h3 {
   text-align: center;
   display: block;
