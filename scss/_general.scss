@@ -86,6 +86,14 @@
           .view-content .views-row:not(:first-child) {
              border-top: 1px solid $link-text-color;
           }
+          .lateral-buttons {
+              a {
+                  width: 100%;
+                  white-space: normal;
+                  margin-top: 15px;
+              }
+          }
+
      }
      .registration-content {
         .row > * {

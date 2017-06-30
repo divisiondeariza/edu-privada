@@ -601,6 +601,10 @@ h1.logo {
   margin: 5px 0 10px; }
 .site-eduprivada .lateral-content .view-content .views-row:not(:first-child) {
   border-top: 1px solid #5b5b5f; }
+.site-eduprivada .lateral-content .lateral-buttons a {
+  width: 100%;
+  white-space: normal;
+  margin-top: 15px; }
 .site-eduprivada .registration-content .row > * {
   text-align: center;
   margin: 15px 0; }
@@ -990,7 +994,7 @@ h1.logo {
  * --------------------------------------------------
  */
 .site-eduprivada .btn {
-  background: #1A254E;
+  background: #1d4383;
   color: white;
   font-weight: 600;
   border: none; }
