@@ -590,6 +590,10 @@ h1.logo {
 .site-eduprivada .general-content img {
   float: left;
   margin: 15px 15px 15px 5px; }
+.site-eduprivada .general-content .btn {
+  white-space: normal;
+  color: white !important;
+  text-decoration: blink !important; }
 .site-eduprivada .lateral-content h3 {
   text-align: center;
   display: block;
