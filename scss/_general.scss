@@ -79,9 +79,13 @@
             white-space: normal;
             color: white !important;
             text-decoration: blink !important;
+            min-height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 1px;
 
             &.col-sm-3 {
-                margin: 1px;
                 width: 24%;
             }
         }

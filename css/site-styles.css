@@ -597,9 +597,13 @@ h1.logo {
 .site-eduprivada .general-content .btn {
   white-space: normal;
   color: white !important;
-  text-decoration: blink !important; }
+  text-decoration: blink !important;
+  min-height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1px; }
   .site-eduprivada .general-content .btn.col-sm-3 {
-    margin: 1px;
     width: 24%; }
 .site-eduprivada .lateral-content h3 {
   text-align: center;
