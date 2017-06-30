@@ -91,6 +91,30 @@
                   width: 100%;
                   white-space: normal;
                   margin-top: 15px;
+                  padding-left: 75px;
+                  text-align: left;
+                  position: relative;
+                  display: flex;
+                  align-items: center;
+
+                  span {
+                    position: absolute;
+                    height: 100%;
+                    width: 70px;
+                    top: 0;
+                    left: 0;
+                    background: url('http://52.37.84.217/edu-privada/img/img-spritesheet.png') no-repeat;
+                  }
+                  &:first-child {
+                      span {
+                          background-position: -12px -102px;
+                      }
+                  }
+                  &:last-child {
+                      span {
+                          background-position: -112px -102px;
+                      }
+                  }
               }
           }
 
@@ -128,6 +152,10 @@
          .lateral-content {
             width: 22%;
             margin-left: 15px;
+
+            a {
+                font-size: 16px;
+            }
          }
      }
      @media (min-width: 992px) and (max-width: 1024px) {
