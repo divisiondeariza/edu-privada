@@ -587,6 +587,9 @@ h1.logo {
   list-style: decimal !important; }
 .site-eduprivada .home-content .view-content ul li, .site-eduprivada .general-content .view-content ul li, .site-eduprivada .lateral-content .view-content ul li {
   list-style: disc !important; }
+.site-eduprivada .general-content img {
+  float: left;
+  margin: 15px 15px 15px 5px; }
 .site-eduprivada .registration-content .row > * {
   text-align: center;
   margin: 15px 0; }
