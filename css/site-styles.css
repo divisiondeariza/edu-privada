@@ -603,6 +603,7 @@ h1.logo {
   border-top: 1px solid #5b5b5f; }
 .site-eduprivada .lateral-content .lateral-buttons a {
   width: 100%;
+  height: 70px;
   white-space: normal;
   margin-top: 15px;
   padding-left: 75px;
