@@ -142,6 +142,18 @@
      .resources-edu-privada{
           a {
             text-decoration: none !important;
+            display: block;
+            text-align: left;
+            padding-left: 30px;
+
+            span {
+              position: absolute;
+              width: 20px;
+              left: 0;
+              top: 0;
+              height: 100%;
+              background: url("#{$images-path}img-spritesheet.png") no-repeat;
+            }
 
           }
       }
