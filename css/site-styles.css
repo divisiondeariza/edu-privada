@@ -579,6 +579,10 @@ h1.logo {
   margin-top: 10px !important;
   color: #666666 !important;
   padding: 0 5px; }
+.site-eduprivada .bordered-div {
+  border: 1px solid gray;
+  padding: 15px;
+  margin: 15px 0; }
 .site-eduprivada .home-content .view-content ul, .site-eduprivada .home-content .view-content ol, .site-eduprivada .general-content .view-content ul, .site-eduprivada .general-content .view-content ol, .site-eduprivada .lateral-content .view-content ul, .site-eduprivada .lateral-content .view-content ol {
   padding-left: 40px !important; }
   .site-eduprivada .home-content .view-content ul li, .site-eduprivada .home-content .view-content ol li, .site-eduprivada .general-content .view-content ul li, .site-eduprivada .general-content .view-content ol li, .site-eduprivada .lateral-content .view-content ul li, .site-eduprivada .lateral-content .view-content ol li {
@@ -594,6 +598,9 @@ h1.logo {
   white-space: normal;
   color: white !important;
   text-decoration: blink !important; }
+  .site-eduprivada .general-content .btn.col-sm-3 {
+    margin: 1px;
+    width: 24%; }
 .site-eduprivada .lateral-content h3 {
   text-align: center;
   display: block;
