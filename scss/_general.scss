@@ -71,6 +71,22 @@
             margin: 15px 15px 15px 5px;
         }
      }
+     .lateral-content {
+          h3 {
+             text-align: center;
+             display: block;
+             width: 100%;
+             font-weight: 600 !important;
+          }
+          .views-more-link {
+             display: block;
+             color: $link-text-color;
+             margin: 5px 0 10px;
+          }
+          .view-content .views-row:not(:first-child) {
+             border-top: 1px solid $link-text-color;
+          }
+     }
      .registration-content {
         .row > * {
             text-align: center;
@@ -131,6 +147,14 @@
      @media (max-width: 767px){
          .section_container.no_left_sidebar .section_content {
             width: 100% !important;
+         }
+     }
+     @media (max-width: 500px){
+         .general-content {
+             img {
+                margin: 15px 0 !important;
+                width: 100%;
+             }
          }
      }
  }

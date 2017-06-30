@@ -590,6 +590,17 @@ h1.logo {
 .site-eduprivada .general-content img {
   float: left;
   margin: 15px 15px 15px 5px; }
+.site-eduprivada .lateral-content h3 {
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-weight: 600 !important; }
+.site-eduprivada .lateral-content .views-more-link {
+  display: block;
+  color: #5b5b5f;
+  margin: 5px 0 10px; }
+.site-eduprivada .lateral-content .view-content .views-row:not(:first-child) {
+  border-top: 1px solid #5b5b5f; }
 .site-eduprivada .registration-content .row > * {
   text-align: center;
   margin: 15px 0; }
@@ -623,6 +634,10 @@ h1.logo {
 @media (max-width: 767px) {
   .site-eduprivada .section_container.no_left_sidebar .section_content {
     width: 100% !important; } }
+@media (max-width: 500px) {
+  .site-eduprivada .general-content img {
+    margin: 15px 0 !important;
+    width: 100%; } }
 
 /**
  * Headings Styles
