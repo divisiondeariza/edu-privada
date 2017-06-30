@@ -637,6 +637,8 @@ h1.logo {
     background-position: -12px -102px; }
   .site-eduprivada .lateral-content .lateral-buttons a:last-child span {
     background-position: -112px -102px; }
+.site-eduprivada .resources-edu-privada a {
+  text-decoration: none !important; }
 .site-eduprivada .registration-content .row > * {
   text-align: center;
   margin: 15px 0; }
