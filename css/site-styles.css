@@ -641,14 +641,15 @@ h1.logo {
   text-decoration: none !important;
   display: block;
   text-align: left;
-  padding-left: 30px; }
+  padding-left: 30px;
+  position: relative; }
   .site-eduprivada .resources-edu-privada a span {
     position: absolute;
     width: 20px;
     left: 0;
     top: 0;
     height: 100%;
-    background: url("http://52.37.84.217/edu-privada/img/img-spritesheet.png") no-repeat; }
+    background: url("http://52.37.84.217/edu-privada/img/img-spritesheet.png") no-repeat -235px -121px; }
 .site-eduprivada .registration-content .row > * {
   text-align: center;
   margin: 15px 0; }
