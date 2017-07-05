@@ -7,7 +7,15 @@
       overflow: hidden;
       height: 100%;
       padding-top: 10px;
+      margin: 1% 2% 20px;
 
+          .view-header {
+            width: 248px;
+            position: absolute;
+            bottom: 0;
+            background: rgba($buttons-bg-color, 0.5) url("#{$images-path}logo_edu_privada.png") no-repeat 18px center / contain;
+            z-index: 10;
+          }
           .views-slideshow-controls-text-pause {
           		display: none;
           }
@@ -152,17 +160,10 @@
                padding: 0 15px;
           }
 
-          @media (min-width: 1000px) {
-              & {
-                  margin: 0% 2% 50px;
-              }
-          }
-          @media (max-width: 999px) {
-              & {
-                  margin: 0% 2% 30px;
-              }
-          }
           @media (min-width: 992px) {
+              .view-header {                
+                  height: 33%;
+              }
               .views_slideshow_slide > div .views-field-title {
                   top: 0;
                   width: 40%;
