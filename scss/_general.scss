@@ -141,8 +141,8 @@
           }
 
      }
-     .resources-edu-privada{
-          a {
+     .resources-edu-privada {
+         a {
             text-decoration: none !important;
             display: block;
             text-align: left;
@@ -157,7 +157,9 @@
               height: 100%;
               background: url("#{$images-path}img-spritesheet.png") no-repeat -235px -121px;
             }
-
+          }
+          p:last-child {
+              margin-bottom: 15px !important;
           }
       }
      .registration-content {

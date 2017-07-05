@@ -652,6 +652,8 @@ h1.logo {
     top: 0;
     height: 100%;
     background: url("http://52.37.84.217/edu-privada/img/img-spritesheet.png") no-repeat -235px -121px; }
+.site-eduprivada .resources-edu-privada p:last-child {
+  margin-bottom: 15px !important; }
 .site-eduprivada .registration-content .row > * {
   text-align: center;
   margin: 15px 0; }
@@ -1307,51 +1309,53 @@ h1.logo {
  * Home Menu Styles
  * --------------------------------------------------
  */
-.site-eduprivada .home-menu .view-content .views-row {
-  display: inline-block; }
-  .site-eduprivada .home-menu .view-content .views-row a {
-    background: white;
-    display: block;
-    padding: 15px 15px 30px;
-    border-radius: 7px;
-    color: #1f0d2e;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 120%;
-    -webkit-box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.25);
-    box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.25); }
-  .site-eduprivada .home-menu .view-content .views-row img {
-    padding-bottom: 20px; }
-@media (min-width: 992px) {
-  .site-eduprivada .home-menu {
-    top: 50%;
-    position: absolute; } }
-@media (max-width: 991px) {
-  .site-eduprivada .home-menu {
-    margin-top: -9vw; } }
-@media (min-width: 768px) {
-  .site-eduprivada .home-menu .view-content {
-    display: flex;
-    align-items: baseline; }
-    .site-eduprivada .home-menu .view-content .views-row {
-      width: 30%; }
-      .site-eduprivada .home-menu .view-content .views-row:first-child {
-        margin: 0 2% 2% 6%; }
-      .site-eduprivada .home-menu .view-content .views-row:nth-child(2) {
-        margin: 0 2% 2%; }
-      .site-eduprivada .home-menu .view-content .views-row:last-child {
-        margin: 0 6% 2% 2%; }
-      .site-eduprivada .home-menu .view-content .views-row a {
-        min-height: 330px; } }
-@media (max-width: 767px) {
+.site-eduprivada .home-menu {
+  width: 100%; }
   .site-eduprivada .home-menu .view-content .views-row {
-    width: 100%;
-    margin: 0 0 4%; }
+    display: inline-block; }
     .site-eduprivada .home-menu .view-content .views-row a {
-      width: 70%;
-      margin: auto;
-      max-width: 400px; } }
+      background: white;
+      display: block;
+      padding: 15px 15px 30px;
+      border-radius: 7px;
+      color: #1f0d2e;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 120%;
+      -webkit-box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.25);
+      -moz-box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.25);
+      box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.25); }
+    .site-eduprivada .home-menu .view-content .views-row img {
+      padding-bottom: 20px; }
+  @media (min-width: 992px) {
+    .site-eduprivada .home-menu {
+      top: 50%;
+      position: absolute; } }
+  @media (max-width: 991px) {
+    .site-eduprivada .home-menu {
+      margin-top: -9vw; } }
+  @media (min-width: 768px) {
+    .site-eduprivada .home-menu .view-content {
+      display: flex;
+      align-items: baseline; }
+      .site-eduprivada .home-menu .view-content .views-row {
+        width: 30%; }
+        .site-eduprivada .home-menu .view-content .views-row:first-child {
+          margin: 0 2% 2% 6%; }
+        .site-eduprivada .home-menu .view-content .views-row:nth-child(2) {
+          margin: 0 2% 2%; }
+        .site-eduprivada .home-menu .view-content .views-row:last-child {
+          margin: 0 6% 2% 2%; }
+        .site-eduprivada .home-menu .view-content .views-row a {
+          min-height: 330px; } }
+  @media (max-width: 767px) {
+    .site-eduprivada .home-menu .view-content .views-row {
+      width: 100%;
+      margin: 0 0 4%; }
+      .site-eduprivada .home-menu .view-content .views-row a {
+        width: 70%;
+        margin: auto;
+        max-width: 400px; } }
 
 /**
  * Main Titles Styles
@@ -1360,13 +1364,15 @@ h1.logo {
 .site-eduprivada .site-title {
   padding: 15px;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
   .site-eduprivada .site-title span {
     position: absolute;
     height: 85px;
     width: 86px;
     background: url("http://52.37.84.217/edu-privada/img/img-spritesheet.png") no-repeat;
-    left: 40px; }
+    left: 40px;
+    top: 0; }
   .site-eduprivada .site-title h1 {
     margin: 0 !important;
     padding: 15px 15px 15px 140px;

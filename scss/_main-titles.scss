@@ -7,6 +7,7 @@
       padding: 15px;
       display: flex;
       align-items: center;
+      position: relative;
 
       span {
           position: absolute;
@@ -14,6 +15,7 @@
           width: 86px;
           background: url('#{$images-path}img-spritesheet.png') no-repeat;
           left: 40px;
+          top: 0;
       }
       h1 {
           margin: 0 !important;
