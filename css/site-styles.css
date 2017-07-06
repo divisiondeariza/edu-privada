@@ -799,6 +799,9 @@ h1.logo {
   .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu .open + .menu {
     max-height: 1500px !important;
     transition: max-height 1.0s ease !important; }
+    .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu .open + .menu .open + .menu .active {
+      background-color: #1f0d2e !important;
+      color: #eef8f8 !important; }
   .site-eduprivada #microsite_panel .slide .pane-content > .menu li:hover {
     color: #1f0d2e;
     text-decoration: none !important;
@@ -838,7 +841,7 @@ h1.logo {
   padding-top: 10px;
   margin: 1% 2% 20px; }
   .site-eduprivada #edu_privada_home_slider .view-header {
-    width: 248px;
+    width: 230px;
     position: absolute;
     bottom: 0;
     background: rgba(29, 67, 131, 0.5) url("http://52.37.84.217/edu-privada/img/logo_edu_privada.png") no-repeat 18px center/contain;

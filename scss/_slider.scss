@@ -10,7 +10,7 @@
       margin: 1% 2% 20px;
 
           .view-header {
-            width: 248px;
+            width: 230px;
             position: absolute;
             bottom: 0;
             background: rgba($buttons-bg-color, 0.5) url("#{$images-path}logo_edu_privada.png") no-repeat 18px center / contain;
@@ -161,7 +161,7 @@
           }
 
           @media (min-width: 992px) {
-              .view-header {                
+              .view-header {
                   height: 33%;
               }
               .views_slideshow_slide > div .views-field-title {
