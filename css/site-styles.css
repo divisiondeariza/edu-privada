@@ -799,7 +799,7 @@ h1.logo {
   .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu .open + .menu {
     max-height: 1500px !important;
     transition: max-height 1.0s ease !important; }
-    .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu .open + .menu .open + .menu .active {
+    .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu .open + .menu .leaf .active {
       background-color: #1f0d2e !important;
       color: #eef8f8 !important; }
   .site-eduprivada #microsite_panel .slide .pane-content > .menu li:hover {

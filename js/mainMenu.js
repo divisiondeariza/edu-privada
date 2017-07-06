@@ -16,12 +16,22 @@
     window.onload = function() {
         var parentMenuLinks = document.querySelectorAll(".expanded.parent_menu > a");
         var childMenuLinks = document.querySelectorAll(".children_menu .expanded > a");
+        var nodeLinks = document.querySelectorAll(".children_menu .expanded > a + ul a");
         setLinkAndClass(parentMenuLinks);
         setLinkAndClass(childMenuLinks);
         var parentMenuNodes = buildParentMenuArray();
         putOpenClassByMenu (parentMenuNodes, parentMenuLinks);
-        putOpenClassByMenu (childrenMenus, childMenuLinks)
+        putOpenClassByMenu (childrenMenus, childMenuLinks);
+        resetClass(nodeLinks);
     };
+
+    function resetClass(linksArray) {
+      if (isFinishWordInUrl("docentes")) {
+        for (var i = 0; i < linksArray.length; i++) {
+          deleteActiveClass(linksArray[i]);
+        }
+      }
+    }
 
     function setLinkAndClass(elementsArray) {
         for (var i = 0; i < elementsArray.length; i++) {
@@ -34,11 +44,17 @@
       return window.location.href.includes(word);
     }
 
+    function isFinishWordInUrl(word) {
+      return word == window.location.href.substr(window.location.href.lastIndexOf('/') + 1);
+    }
+
     function changeClass(link) {
-        if (hasClass(link, "open"))
-            link.classList.remove("open");
-        else
-            link.className += " open";
+        if (link != undefined) {
+          if (hasClass(link, "open"))
+              link.classList.remove("open");
+          else
+              link.className += " open";
+        }
     }
 
     function hasClass(element, className) {
@@ -60,10 +76,17 @@
         for (var i = 0; i < arrayNodes[key].length; i++) {
           if (isWordInUrl(arrayNodes[key][i])) {
               var index = Object.keys(arrayNodes).indexOf(key);
-              console.log("key " + key);
+              console.log("key: " + key + " index: " + index);
               changeClass(arrayLinks[index]);
+              break;
           }
         }
+      }
+    }
+
+    function deleteActiveClass(link) {
+      if (link != undefined) {
+        link.classList.remove("active");
       }
     }
 </script>

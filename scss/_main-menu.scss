@@ -90,7 +90,7 @@
                               max-height: 1500px !important;
                               transition: max-height 1.0s ease !important;
 
-                               .open + .menu .active {
+                               .leaf .active {
                                   background-color: $home-menu-text-color !important;
                                   color: $main-menu-item-bg !important;
                                }
