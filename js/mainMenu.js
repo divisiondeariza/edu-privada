@@ -3,20 +3,24 @@
       'fundacion' : ["95161","95162","95163","95164"],
       'calidad' : ["95165","95166","95167"], //faltan dos nodos: acreditación y distinciones
       'otrosServicios' : ["95169","95171","95172","95173"],
+      //'preescolar' : [],//todos los items de preescolar
       'basica' : [],//todos los items de básica
       'media' : [],//todos los items de media
       'docentes' : ["95191","95192"], //faltan dos nodos: perfiles y bibliotecas
       'inclusionExtraedad' : ["95180","95181","95182"],
-      'inclusionDiscapacidad' : [],//todos los items de inclusion discapacidad
+      'inclusionDiscapacidad' : ["95321"],//todos los items de inclusion discapacidad
       'comunidadVidaEscolar' : ["95174","95178","95194","95197","95198"],
       'comunidadParticipacion' : ["95199","95200","95201","95202"],
-      'organizacion' : ["95183","95186","95187","95189","95190"]
+    };
+
+    var noChildrenMenus = {
+      'organizacion' : ["95183","95186","95187","95189","95190"],
     };
 
     window.onload = function() {
         var parentMenuLinks = document.querySelectorAll(".expanded.parent_menu > a");
         var childMenuLinks = document.querySelectorAll(".children_menu .expanded > a");
-        var nodeLinks = document.querySelectorAll(".children_menu .expanded > a + ul a");
+        var nodeLinks = document.querySelectorAll(".expanded.parent_menu > a + ul a");
         setLinkAndClass(parentMenuLinks);
         setLinkAndClass(childMenuLinks);
         var parentMenuNodes = buildParentMenuArray();
@@ -67,7 +71,7 @@
       parentMenuArray['formacion'] = childrenMenus.basica.concat(childrenMenus.media).concat(childrenMenus.docentes);
       parentMenuArray['inclusion'] = childrenMenus.inclusionExtraedad.concat(childrenMenus.inclusionDiscapacidad);
       parentMenuArray['comunidad'] = childrenMenus.comunidadVidaEscolar.concat(childrenMenus.comunidadParticipacion);
-      parentMenuArray['organizacion'] = childrenMenus.organizacion;
+      parentMenuArray['organizacion'] = noChildrenMenus.organizacion;
       return parentMenuArray;
     }
 
