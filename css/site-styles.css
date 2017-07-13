@@ -840,6 +840,8 @@ h1.logo {
   height: 100%;
   padding-top: 10px;
   margin: 1% 2% 20px; }
+  .site-eduprivada #edu_privada_home_slider .view {
+    position: relative; }
   .site-eduprivada #edu_privada_home_slider .view-header {
     width: 230px;
     position: absolute;
