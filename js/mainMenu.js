@@ -8,13 +8,16 @@
       'media' : [],//todos los items de media
       'docentes' : ["95191","95192"], //faltan dos nodos: perfiles y bibliotecas
       'inclusionExtraedad' : ["95180","95181","95182"],
-      'inclusionDiscapacidad' : ["95321"],//todos los items de inclusion discapacidad
       'comunidadVidaEscolar' : ["95174","95178","95194","95197","95198"],
       'comunidadParticipacion' : ["95199","95200","95201","95202"],
+      'organizacionAdministracion' : ["95187","95189","95190"],
     };
 
     var noChildrenMenus = {
-      'organizacion' : ["95183","95186","95187","95189","95190"],
+      'inclusionDiscapacidad' : ["105460"],
+      'inclusionTalentosos' : ["95321"],
+      'comunidadResponsabilidad' : ["105459"],
+      'organizacionCalendario' : ["95183","95186"],
     };
 
     window.onload = function() {
@@ -69,9 +72,9 @@
       var parentMenuArray = {};
       parentMenuArray['colegiosYJardines'] = childrenMenus.fundacion.concat(childrenMenus.calidad).concat(childrenMenus.otrosServicios);
       parentMenuArray['formacion'] = childrenMenus.basica.concat(childrenMenus.media).concat(childrenMenus.docentes);
-      parentMenuArray['inclusion'] = childrenMenus.inclusionExtraedad.concat(childrenMenus.inclusionDiscapacidad);
-      parentMenuArray['comunidad'] = childrenMenus.comunidadVidaEscolar.concat(childrenMenus.comunidadParticipacion);
-      parentMenuArray['organizacion'] = noChildrenMenus.organizacion;
+      parentMenuArray['inclusion'] = childrenMenus.inclusionExtraedad.concat(noChildrenMenus.inclusionDiscapacidad).concat(noChildrenMenus.inclusionTalentosos);
+      parentMenuArray['comunidad'] = childrenMenus.comunidadVidaEscolar.concat(childrenMenus.comunidadParticipacion).concat(noChildrenMenus.comunidadResponsabilidad);
+      parentMenuArray['organizacion'] = childrenMenus.organizacionAdministracion.concat(noChildrenMenus.organizacionCalendario);
       return parentMenuArray;
     }
 
