@@ -1337,11 +1337,11 @@ h1.logo {
       padding-bottom: 20px; }
   @media (min-width: 992px) {
     .site-eduprivada .home-menu {
-      top: 50%;
+      top: 46%;
       position: absolute; } }
   @media (max-width: 991px) {
     .site-eduprivada .home-menu {
-      margin-top: -9vw; } }
+      margin-top: -5vw; } }
   @media (min-width: 768px) {
     .site-eduprivada .home-menu .view-content {
       display: flex;
