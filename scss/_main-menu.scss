@@ -53,6 +53,20 @@
 
                                       & > li > a {
                                           padding-left: 30px !important;
+                                          position: relative;
+
+                                          &:before {
+                                              content: ".";
+                                              position: absolute;
+                                              top: 10%;
+                                              left: 16px;
+                                              font-size: 30px;
+                                          }
+
+                                          &:hover:before {
+                                              content: ".";
+                                              top: 18%;
+                                          }
                                       }
                                   }
                                   &:hover > .menu {
