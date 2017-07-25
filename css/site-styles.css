@@ -639,6 +639,9 @@ h1.logo {
     background-position: -12px -102px; }
   .site-eduprivada .lateral-content .lateral-buttons a:nth-child(2) span {
     background-position: -12px -171px; }
+  .site-eduprivada .lateral-content .lateral-buttons a:nth-child(3) {
+    display: flex;
+    padding: 15px; }
   .site-eduprivada .lateral-content .lateral-buttons a:last-child span {
     background-position: -112px -102px; }
 .site-eduprivada .resources-edu-privada {
@@ -675,6 +678,11 @@ h1.logo {
     margin-left: 15px; }
     .site-eduprivada .lateral-content a {
       font-size: 16px; } }
+@media (max-width: 991px) {
+  .site-eduprivada .lateral-content a:nth-child(3) {
+    padding: 5px 0 0 10px; }
+    .site-eduprivada .lateral-content a:nth-child(3) img {
+      height: 100%; } }
 @media (min-width: 992px) and (max-width: 1024px) {
   .site-eduprivada #microsite_panel {
     overflow: hidden; } }
