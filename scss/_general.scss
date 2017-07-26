@@ -226,6 +226,10 @@
                 &:nth-child(3) {
                     padding: 0 0 0 10px !important;
                     text-align: left !important;
+
+                    div {
+                        width: 180px;
+                    }
                 }
             }
          }

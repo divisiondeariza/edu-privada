@@ -690,7 +690,9 @@ h1.logo {
 @media (max-width: 991px) {
   .site-eduprivada .lateral-content a:nth-child(3) {
     padding: 0 0 0 10px !important;
-    text-align: left !important; } }
+    text-align: left !important; }
+    .site-eduprivada .lateral-content a:nth-child(3) div {
+      width: 180px; } }
 @media (min-width: 992px) and (max-width: 1024px) {
   .site-eduprivada #microsite_panel {
     overflow: hidden; } }
