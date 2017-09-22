@@ -3,8 +3,8 @@
       'fundacion' : ["95161","95162","95163","95164"],
       'calidad' : ["95165","95166","95167"], //faltan dos nodos: acreditación y distinciones
       'otrosServicios' : ["95169","95171","95172","95173"],
-      //'preescolar' : [],//todos los items de preescolar
-      'basica' : [],//todos los items de básica
+      'preescolar' : [],//todos los items de preescolar
+      'basica' : ["106867", "106868", "106869", "106871", "106872", "106873", "106874", "106875", "106876", "106877", "106878"],//todos los items de básica
       'media' : [],//todos los items de media
       'docentes' : ["95191","95192"], //faltan dos nodos: perfiles y bibliotecas
       'inclusionExtraedad' : ["95180","95181","95182"],
