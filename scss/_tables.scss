@@ -28,19 +28,6 @@
                     &:nth-child(even){
                         background: $table-even-row-bg;
                     }
-                    &:hover{
-                        background: $table-row-hover-bg;
-                        @include transition-properties(all 150ms ease-out);
-
-                        * {
-                            color: white !important;
-                        }
-
-                        th, td {
-                            color: white;
-                            @include transition-properties(all 150ms ease-out);
-                        }
-                    }
                     th,td {
                         padding: 15px !important;
                         vertical-align: middle !important;

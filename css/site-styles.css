@@ -1021,22 +1021,6 @@ h1.logo {
       background: #b8dcef; }
     .site-eduprivada .content .table-responsive tbody tr:nth-child(even) {
       background: #9fcfea; }
-    .site-eduprivada .content .table-responsive tbody tr:hover {
-      background: #4470B3;
-      -webkit-transition: all 150ms ease-out;
-      -moz-transition: all 150ms ease-out;
-      -ms-transition: all 150ms ease-out;
-      -o-transition: all 150ms ease-out;
-      transition: all 150ms ease-out; }
-      .site-eduprivada .content .table-responsive tbody tr:hover * {
-        color: white !important; }
-      .site-eduprivada .content .table-responsive tbody tr:hover th, .site-eduprivada .content .table-responsive tbody tr:hover td {
-        color: white;
-        -webkit-transition: all 150ms ease-out;
-        -moz-transition: all 150ms ease-out;
-        -ms-transition: all 150ms ease-out;
-        -o-transition: all 150ms ease-out;
-        transition: all 150ms ease-out; }
     .site-eduprivada .content .table-responsive tbody tr th, .site-eduprivada .content .table-responsive tbody tr td {
       padding: 15px !important;
       vertical-align: middle !important;
