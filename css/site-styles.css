@@ -569,7 +569,7 @@ h1.logo {
 .site-eduprivada .content p a {
   text-decoration: underline;
   cursor: pointer;
-  color: #5b5b5f; }
+  color: #337ab7; }
   .site-eduprivada .content p a:hover {
     color: #1f0d2e; }
 .site-eduprivada .section_content .breadcrumb {
@@ -577,7 +577,7 @@ h1.logo {
   height: 40px; }
 .site-eduprivada .section_content p {
   margin-top: 10px !important;
-  color: #666666 !important;
+  color: #333 !important;
   padding: 0 5px; }
 .site-eduprivada .bordered-div {
   border: 1px solid gray;
@@ -614,10 +614,10 @@ h1.logo {
   font-weight: 600 !important; }
 .site-eduprivada .lateral-content .views-more-link {
   display: block;
-  color: #5b5b5f;
+  color: #337ab7;
   margin: 5px 0 10px; }
 .site-eduprivada .lateral-content .view-content .views-row:not(:first-child) {
-  border-top: 1px solid #5b5b5f; }
+  border-top: 1px solid #337ab7; }
 .site-eduprivada .lateral-content .lateral-buttons a {
   width: 100%;
   height: 70px;
@@ -1075,7 +1075,7 @@ h1.logo {
     background: #6EA7D5 !important;
     border: none; }
 .site-eduprivada .icon-button {
-  background: #5b5b5f;
+  background: #337ab7;
   padding: 10px 16px 10px 50px;
   position: relative; }
   .site-eduprivada .icon-button span {
@@ -1170,7 +1170,7 @@ h1.logo {
     font-weight: 600; }
   .site-eduprivada ul.nav.nav-tabs li.active a {
     background-color: white;
-    color: #5b5b5f; }
+    color: #337ab7; }
 .site-eduprivada .tab-content {
   background-color: white; }
 .site-eduprivada div .tab-pane.fade {
@@ -1198,7 +1198,7 @@ h1.logo {
         position: relative !important; }
         .site-eduprivada .quicktabs-wrapper .quicktabs-tabs li.active a {
           border: none;
-          color: #5b5b5f;
+          color: #337ab7;
           text-decoration: blink; }
   .site-eduprivada .quicktabs-wrapper .quicktabs_main {
     border-top: 1px solid lightgray;
