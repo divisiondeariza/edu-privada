@@ -594,7 +594,7 @@ h1.logo {
 .site-eduprivada .general-content {
   min-height: 500px; }
   .site-eduprivada .general-content .view-content {
-    overflow-x: visible !important; }
+    overflow: visible !important; }
   .site-eduprivada .general-content img {
     float: left;
     margin: 15px 15px 15px 5px; }
