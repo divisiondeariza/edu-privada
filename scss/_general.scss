@@ -73,6 +73,10 @@
      .general-content {
         min-height: 500px;
 
+        .view-content {
+            overflow-x: visible !important;
+        }
+
         img {
             float: left;
             margin: 15px 15px 15px 5px;
