@@ -49,4 +49,27 @@
               white-space: normal;
           }
       }
+      .cpa-button {
+          background: url("#{$images-path}img_cpa.jpg") no-repeat 0 / contain;
+      }
+      .complementary-contents-button {
+          background: url("#{$images-path}img_contenidosComplementarios.jpg") no-repeat 0 / contain;
+      }
+      .cpa-button, .complementary-contents-button {
+          color: transparent;
+          margin: 0 -15px;
+          height: 85px;
+          position: relative;
+
+          &:hover:before {
+              content: "";
+              display: block;
+              height: 100%;
+              width: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              background: rgba(255, 255, 255, 0.1);
+          }
+      }
 }

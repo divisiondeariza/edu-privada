@@ -1095,6 +1095,24 @@ h1.logo {
   background-position: -189px -6px; }
 .site-eduprivada .table button {
   white-space: normal; }
+.site-eduprivada .cpa-button {
+  background: url("http://52.37.84.217/edu-privada/img/img_cpa.jpg") no-repeat 0/contain; }
+.site-eduprivada .complementary-contents-button {
+  background: url("http://52.37.84.217/edu-privada/img/img_contenidosComplementarios.jpg") no-repeat 0/contain; }
+.site-eduprivada .cpa-button, .site-eduprivada .complementary-contents-button {
+  color: transparent;
+  margin: 0 -15px;
+  height: 85px;
+  position: relative; }
+  .site-eduprivada .cpa-button:hover:before, .site-eduprivada .complementary-contents-button:hover:before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.1); }
 
 /**
  * Modals Styles
