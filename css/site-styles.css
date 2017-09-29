@@ -1100,7 +1100,7 @@ h1.logo {
 .site-eduprivada .complementary-contents-button {
   background: url("http://52.37.84.217/edu-privada/img/img_contenidosComplementarios.jpg") no-repeat 0/contain; }
 .site-eduprivada .cpa-button, .site-eduprivada .complementary-contents-button {
-  color: transparent;
+  color: transparent !important;
   margin: 0 -15px;
   height: 85px;
   position: relative; }
@@ -1112,7 +1112,7 @@ h1.logo {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(255, 255, 255, 0.1); }
+    background: rgba(255, 255, 255, 0.2); }
 
 /**
  * Modals Styles
