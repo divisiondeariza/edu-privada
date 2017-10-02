@@ -762,9 +762,9 @@ h1.logo {
   border: 1px solid #a7bec2;
   border-radius: 7px;
   margin-top: 15px; }
-  .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu:nth-last-child(2) > a, .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu:last-child > a {
+  .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu:nth-last-child(3) > a, .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu:nth-last-child(2) > a, .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu:last-child > a {
     border: none; }
-    .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu:nth-last-child(2) > a:hover, .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu:last-child > a:hover {
+    .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu:nth-last-child(3) > a:hover, .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu:nth-last-child(2) > a:hover, .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu:last-child > a:hover {
       border-bottom: 4px solid #a7bec2; }
   .site-eduprivada #microsite_panel .slide .pane-content > .menu li.parent_menu > a {
     border-right: 1px solid transparent;
@@ -852,7 +852,7 @@ h1.logo {
       text-decoration: none !important; }
     .site-eduprivada #microsite_panel .slide .pane-content > .menu:hover li.parent_menu:hover > .children_menu {
       /*height:auto;*/ }
-@media (max-width: 991px) {
+@media (max-width: 500px) {
   .site-eduprivada #microsite_panel .slide .pane-content > .menu > li:nth-last-child(2), .site-eduprivada #microsite_panel .slide .pane-content > .menu > li:last-child {
     width: 50% !important; } }
 @media (min-width: 768px) {
@@ -1117,11 +1117,17 @@ h1.logo {
 @media (min-width: 992px) {
   .site-eduprivada .cpa-button, .site-eduprivada .complementary-contents-button {
     margin: 0 -15px;
-    height: 75px;
-    background: no-repeat center / cover; } }
-@media (max-width: 991px) {
+    height: 95px;
+    background: no-repeat center / cover;
+    border-top: 15px solid #b6d0d2 !important; } }
+@media (min-width: 501px) and (max-width: 991px) {
   .site-eduprivada .cpa-button, .site-eduprivada .complementary-contents-button {
     height: 12vw;
+    margin: 15px 0;
+    background: no-repeat center / contain; } }
+@media (max-width: 500px) {
+  .site-eduprivada .cpa-button, .site-eduprivada .complementary-contents-button {
+    height: 25vw;
     margin: 15px 0;
     background: no-repeat center / contain; } }
 

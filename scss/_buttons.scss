@@ -73,13 +73,21 @@
       @media (min-width: 992px) {
           .cpa-button, .complementary-contents-button {
               margin: 0 -15px;
-              height: 75px;
+              height: 95px;
               background: no-repeat center / cover;
+              border-top: 15px solid #b6d0d2 !important;
           }
       }
-      @media (max-width: 991px) {
+      @media (min-width: 501px) and (max-width: 991px) {
           .cpa-button, .complementary-contents-button {
               height: 12vw;
+              margin: 15px 0;
+              background: no-repeat center / contain;
+          }
+      }
+      @media (max-width: 500px) {
+          .cpa-button, .complementary-contents-button {
+              height: 25vw;
               margin: 15px 0;
               background: no-repeat center / contain;
           }
