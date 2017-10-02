@@ -50,15 +50,14 @@
           }
       }
       .cpa-button {
-          background-image: url("#{$images-path}img_cpa.jpg");
+          background-image: url("#{$images-path}img_cpa.jpg") !important;
       }
       .complementary-contents-button {
-          background-image: url("#{$images-path}img_contenidosComplementarios.jpg");
+          background-image: url("#{$images-path}img_contenidosComplementarios.jpg") !important;
       }
       .cpa-button, .complementary-contents-button {
           color: transparent !important;
           position: relative;
-          background: no-repeat center / cover;
 
           &:hover:before {
               content: "";
@@ -74,12 +73,15 @@
       @media (min-width: 992px) {
           .cpa-button, .complementary-contents-button {
               margin: 0 -15px;
-              height: 85px;
+              height: 75px;
+              background: no-repeat center / cover;
           }
       }
       @media (max-width: 991px) {
           .cpa-button, .complementary-contents-button {
-              height: 16vw;
+              height: 12vw;
+              margin: 15px 0;
+              background: no-repeat center / contain;
           }
       }
 }

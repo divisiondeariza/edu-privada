@@ -8,7 +8,7 @@
           .pane-content {
               & > .menu {
                   background-color: $main-menu-bg !important;
-                  padding: 5px 15px;
+                  padding: 5px 15px 0;
                   border: 1px solid $main-menu-vertical-separator;
                   border-radius: 7px;
                   margin-top: 15px;

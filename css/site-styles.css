@@ -758,7 +758,7 @@ h1.logo {
  */
 .site-eduprivada #microsite_panel .slide .pane-content > .menu {
   background-color: #eef8f8 !important;
-  padding: 5px 15px;
+  padding: 5px 15px 0;
   border: 1px solid #a7bec2;
   border-radius: 7px;
   margin-top: 15px; }
@@ -1099,13 +1099,12 @@ h1.logo {
 .site-eduprivada .table button {
   white-space: normal; }
 .site-eduprivada .cpa-button {
-  background-image: url("http://52.37.84.217/edu-privada/img/img_cpa.jpg"); }
+  background-image: url("http://52.37.84.217/edu-privada/img/img_cpa.jpg") !important; }
 .site-eduprivada .complementary-contents-button {
-  background-image: url("http://52.37.84.217/edu-privada/img/img_contenidosComplementarios.jpg"); }
+  background-image: url("http://52.37.84.217/edu-privada/img/img_contenidosComplementarios.jpg") !important; }
 .site-eduprivada .cpa-button, .site-eduprivada .complementary-contents-button {
   color: transparent !important;
-  position: relative;
-  background: no-repeat center / cover; }
+  position: relative; }
   .site-eduprivada .cpa-button:hover:before, .site-eduprivada .complementary-contents-button:hover:before {
     content: "";
     display: block;
@@ -1118,10 +1117,13 @@ h1.logo {
 @media (min-width: 992px) {
   .site-eduprivada .cpa-button, .site-eduprivada .complementary-contents-button {
     margin: 0 -15px;
-    height: 85px; } }
+    height: 75px;
+    background: no-repeat center / cover; } }
 @media (max-width: 991px) {
   .site-eduprivada .cpa-button, .site-eduprivada .complementary-contents-button {
-    height: 16vw; } }
+    height: 12vw;
+    margin: 15px 0;
+    background: no-repeat center / contain; } }
 
 /**
  * Modals Styles
