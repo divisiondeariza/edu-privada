@@ -50,16 +50,15 @@
           }
       }
       .cpa-button {
-          background: url("#{$images-path}img_cpa.jpg") no-repeat 0 / contain;
+          background-image: url("#{$images-path}img_cpa.jpg");
       }
       .complementary-contents-button {
-          background: url("#{$images-path}img_contenidosComplementarios.jpg") no-repeat 0 / contain;
+          background-image: url("#{$images-path}img_contenidosComplementarios.jpg");
       }
       .cpa-button, .complementary-contents-button {
           color: transparent !important;
-          margin: 0 -15px;
-          height: 85px;
           position: relative;
+          background: no-repeat center / cover;
 
           &:hover:before {
               content: "";
@@ -70,6 +69,17 @@
               top: 0;
               left: 0;
               background: rgba(white, 0.2);
+          }
+      }
+      @media (min-width: 992px) {
+          .cpa-button, .complementary-contents-button {
+              margin: 0 -15px;
+              height: 85px;
+          }
+      }
+      @media (max-width: 991px) {
+          .cpa-button, .complementary-contents-button {
+              height: 16vw;
           }
       }
 }
